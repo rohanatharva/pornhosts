@@ -31,8 +31,8 @@
         "added": {
             "included_at_epoch": 1594155274.519239,
             "included_at_iso": "2020-07-07T20:54:34.519239",
-            "last_retested_at_epoch": 1594156239.839853,
-            "last_retested_at_iso": "2020-07-07T21:10:39.839853",
+            "last_retested_at_epoch": 1594202821.629711,
+            "last_retested_at_iso": "2020-07-08T10:07:01.629711",
             "status": "INVALID"
         },
         "ads.playboy.bg": {
@@ -346,8 +346,8 @@
         "closes": {
             "included_at_epoch": 1594155274.397841,
             "included_at_iso": "2020-07-07T20:54:34.397841",
-            "last_retested_at_epoch": 1594156239.902979,
-            "last_retested_at_iso": "2020-07-07T21:10:39.902979",
+            "last_retested_at_epoch": 1594202821.658615,
+            "last_retested_at_iso": "2020-07-08T10:07:01.658615",
             "status": "INVALID"
         },
         "cocks.bi-caps.com": {
@@ -465,8 +465,8 @@
         "head": {
             "included_at_epoch": 1594155335.553366,
             "included_at_iso": "2020-07-07T20:55:35.553366",
-            "last_retested_at_epoch": 1594156239.9345,
-            "last_retested_at_iso": "2020-07-07T21:10:39.934500",
+            "last_retested_at_epoch": 1594202882.514142,
+            "last_retested_at_iso": "2020-07-08T10:08:02.514142",
             "status": "INVALID"
         },
         "hkinvy.ru": {
@@ -479,8 +479,8 @@
         "https://github.com/import-external-sources/pornhosts/issues/630": {
             "included_at_epoch": 1594155274.546021,
             "included_at_iso": "2020-07-07T20:54:34.546021",
-            "last_retested_at_epoch": 1594156239.872301,
-            "last_retested_at_iso": "2020-07-07T21:10:39.872301",
+            "last_retested_at_epoch": 1594202821.68744,
+            "last_retested_at_iso": "2020-07-08T10:07:01.687440",
             "status": "INVALID"
         },
         "icdn02.igayporn.tv.sds.rncdn7.co": {
@@ -840,11 +840,25 @@
             "last_retested_at_iso": "2020-07-07T20:58:07.565729",
             "status": "INACTIVE"
         },
+        "www.angelicmichele.com": {
+            "included_at_epoch": 1594203033.182708,
+            "included_at_iso": "2020-07-08T10:10:33.182708",
+            "last_retested_at_epoch": 1594203033.182708,
+            "last_retested_at_iso": "2020-07-08T10:10:33.182708",
+            "status": "INACTIVE"
+        },
         "www.angelien.isheet.nl": {
             "included_at_epoch": 1594155487.619909,
             "included_at_iso": "2020-07-07T20:58:07.619909",
             "last_retested_at_epoch": 1594155487.619909,
             "last_retested_at_iso": "2020-07-07T20:58:07.619909",
+            "status": "INACTIVE"
+        },
+        "www.angelina-croft.com": {
+            "included_at_epoch": 1594203033.243665,
+            "included_at_iso": "2020-07-08T10:10:33.243665",
+            "last_retested_at_epoch": 1594203033.243665,
+            "last_retested_at_iso": "2020-07-08T10:10:33.243665",
             "status": "INACTIVE"
         },
         "www.angeliques.forumactif.net": {
@@ -1253,6 +1267,13 @@
             "last_retested_at_iso": "2020-07-07T20:58:13.278676",
             "status": "INACTIVE"
         },
+        "www.footfootage.com": {
+            "included_at_epoch": 1594203037.048432,
+            "included_at_iso": "2020-07-08T10:10:37.048432",
+            "last_retested_at_epoch": 1594203037.048432,
+            "last_retested_at_iso": "2020-07-08T10:10:37.048432",
+            "status": "INACTIVE"
+        },
         "www.free.fuckbook.cm": {
             "included_at_epoch": 1594155493.547441,
             "included_at_iso": "2020-07-07T20:58:13.547441",
@@ -1603,6 +1624,13 @@
             "last_retested_at_iso": "2020-07-07T20:58:19.293336",
             "status": "INACTIVE"
         },
+        "www.nakedwench.com": {
+            "included_at_epoch": 1594203041.447929,
+            "included_at_iso": "2020-07-08T10:10:41.447929",
+            "last_retested_at_epoch": 1594203041.447929,
+            "last_retested_at_iso": "2020-07-08T10:10:41.447929",
+            "status": "INACTIVE"
+        },
         "www.natursekt.tv": {
             "included_at_epoch": 1594155499.557387,
             "included_at_iso": "2020-07-07T20:58:19.557387",
@@ -1734,6 +1762,13 @@
             "included_at_iso": "2020-07-07T20:58:22.513718",
             "last_retested_at_epoch": 1594155502.513718,
             "last_retested_at_iso": "2020-07-07T20:58:22.513718",
+            "status": "INACTIVE"
+        },
+        "www.porn40.com": {
+            "included_at_epoch": 1594203043.118639,
+            "included_at_iso": "2020-07-08T10:10:43.118639",
+            "last_retested_at_epoch": 1594203043.118639,
+            "last_retested_at_iso": "2020-07-08T10:10:43.118639",
             "status": "INACTIVE"
         },
         "www.pornalized.com": {
