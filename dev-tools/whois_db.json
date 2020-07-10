@@ -60919,6 +60919,11 @@
         "expiration_date": "05-jan-2021",
         "state": "future"
     },
+    "streamray.com": {
+        "epoch": 1632096000.0,
+        "expiration_date": "20-sep-2021",
+        "state": "future"
+    },
     "streamsex.com": {
         "epoch": 1595714400.0,
         "expiration_date": "26-jul-2020",
@@ -69770,9 +69775,9 @@
         "state": "future"
     },
     "xnxxhamster.co": {
-        "epoch": 1593734400.0,
-        "expiration_date": "03-jul-2020",
-        "state": "past"
+        "epoch": 1625270400.0,
+        "expiration_date": "03-jul-2021",
+        "state": "future"
     },
     "xnxxhamster.net": {
         "epoch": 1597017600.0,
@@ -71055,9 +71060,9 @@
         "state": "future"
     },
     "xxxylive.com": {
-        "epoch": 1594339200.0,
-        "expiration_date": "10-jul-2020",
-        "state": "past"
+        "epoch": 1625875200.0,
+        "expiration_date": "10-jul-2021",
+        "state": "future"
     },
     "xxxymovies.com": {
         "epoch": 1617062400.0,
@@ -72787,6 +72792,11 @@
     "zytpirwai.net": {
         "epoch": 1600034400,
         "expiration_date": "14-sep-2020",
+        "state": "future"
+    },
+    "zzbabes.com": {
+        "epoch": 1634688000.0,
+        "expiration_date": "20-oct-2021",
         "state": "future"
     },
     "zzbroya.com.ua": {
