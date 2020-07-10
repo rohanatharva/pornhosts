@@ -31,8 +31,8 @@
         "added": {
             "included_at_epoch": 1594155274.519239,
             "included_at_iso": "2020-07-07T20:54:34.519239",
-            "last_retested_at_epoch": 1594326476.83185,
-            "last_retested_at_iso": "2020-07-09T20:27:56.831850",
+            "last_retested_at_epoch": 1594386509.934706,
+            "last_retested_at_iso": "2020-07-10T13:08:29.934706",
             "status": "INVALID"
         },
         "ads.playboy.bg": {
@@ -346,8 +346,8 @@
         "closes": {
             "included_at_epoch": 1594155274.397841,
             "included_at_iso": "2020-07-07T20:54:34.397841",
-            "last_retested_at_epoch": 1594326476.864389,
-            "last_retested_at_iso": "2020-07-09T20:27:56.864389",
+            "last_retested_at_epoch": 1594386510.066967,
+            "last_retested_at_iso": "2020-07-10T13:08:30.066967",
             "status": "INVALID"
         },
         "cocks.bi-caps.com": {
@@ -465,8 +465,8 @@
         "head": {
             "included_at_epoch": 1594155335.553366,
             "included_at_iso": "2020-07-07T20:55:35.553366",
-            "last_retested_at_epoch": 1594326476.926616,
-            "last_retested_at_iso": "2020-07-09T20:27:56.926616",
+            "last_retested_at_epoch": 1594386572.982767,
+            "last_retested_at_iso": "2020-07-10T13:09:32.982767",
             "status": "INVALID"
         },
         "hkinvy.ru": {
@@ -479,8 +479,8 @@
         "https://github.com/import-external-sources/pornhosts/issues/630": {
             "included_at_epoch": 1594155274.546021,
             "included_at_iso": "2020-07-07T20:54:34.546021",
-            "last_retested_at_epoch": 1594326476.895255,
-            "last_retested_at_iso": "2020-07-09T20:27:56.895255",
+            "last_retested_at_epoch": 1594386510.095469,
+            "last_retested_at_iso": "2020-07-10T13:08:30.095469",
             "status": "INVALID"
         },
         "icdn02.igayporn.tv.sds.rncdn7.co": {
@@ -495,6 +495,13 @@
             "included_at_iso": "2020-07-07T20:55:46.947728",
             "last_retested_at_epoch": 1594325674.263985,
             "last_retested_at_iso": "2020-07-09T20:14:34.263985",
+            "status": "INACTIVE"
+        },
+        "img1.hqasianporn.org": {
+            "included_at_epoch": 1594386584.672713,
+            "included_at_iso": "2020-07-10T13:09:44.672713",
+            "last_retested_at_epoch": 1594386584.672713,
+            "last_retested_at_iso": "2020-07-10T13:09:44.672713",
             "status": "INACTIVE"
         },
         "iwebanalyze.com": {
@@ -1232,6 +1239,13 @@
             "last_retested_at_iso": "2020-07-09T20:17:08.891035",
             "status": "INACTIVE"
         },
+        "www.famous-people-nude.com": {
+            "included_at_epoch": 1594386733.968259,
+            "included_at_iso": "2020-07-10T13:12:13.968259",
+            "last_retested_at_epoch": 1594386733.968259,
+            "last_retested_at_iso": "2020-07-10T13:12:13.968259",
+            "status": "INACTIVE"
+        },
         "www.fapulike.com": {
             "included_at_epoch": 1594155492.916155,
             "included_at_iso": "2020-07-07T20:58:12.916155",
@@ -1391,6 +1405,13 @@
             "included_at_iso": "2020-07-07T20:58:15.668922",
             "last_retested_at_epoch": 1594325832.248594,
             "last_retested_at_iso": "2020-07-09T20:17:12.248594",
+            "status": "INACTIVE"
+        },
+        "www.hqasianporn.org": {
+            "included_at_epoch": 1594386736.463589,
+            "included_at_iso": "2020-07-10T13:12:16.463589",
+            "last_retested_at_epoch": 1594386736.463589,
+            "last_retested_at_iso": "2020-07-10T13:12:16.463589",
             "status": "INACTIVE"
         },
         "www.hqualityporn.com": {
@@ -1953,6 +1974,13 @@
             "last_retested_at_iso": "2020-07-09T20:17:23.503735",
             "status": "INACTIVE"
         },
+        "www.shemlivenow.com": {
+            "included_at_epoch": 1594386744.481975,
+            "included_at_iso": "2020-07-10T13:12:24.481975",
+            "last_retested_at_epoch": 1594386744.481975,
+            "last_retested_at_iso": "2020-07-10T13:12:24.481975",
+            "status": "INACTIVE"
+        },
         "www.sheposes.com": {
             "included_at_epoch": 1594155505.365008,
             "included_at_iso": "2020-07-07T20:58:25.365008",
@@ -1965,6 +1993,13 @@
             "included_at_iso": "2020-07-09T20:17:23.661084",
             "last_retested_at_epoch": 1594325843.661084,
             "last_retested_at_iso": "2020-07-09T20:17:23.661084",
+            "status": "INACTIVE"
+        },
+        "www.slumsluts.net": {
+            "included_at_epoch": 1594386744.840836,
+            "included_at_iso": "2020-07-10T13:12:24.840836",
+            "last_retested_at_epoch": 1594386744.840836,
+            "last_retested_at_iso": "2020-07-10T13:12:24.840836",
             "status": "INACTIVE"
         },
         "www.srandel.com": {
@@ -2252,6 +2287,13 @@
             "included_at_iso": "2020-07-07T21:10:42.762135",
             "last_retested_at_epoch": 1594326479.735995,
             "last_retested_at_iso": "2020-07-09T20:27:59.735995",
+            "status": "INACTIVE"
+        },
+        "www.young-whores.net": {
+            "included_at_epoch": 1594386750.471622,
+            "included_at_iso": "2020-07-10T13:12:30.471622",
+            "last_retested_at_epoch": 1594386750.471622,
+            "last_retested_at_iso": "2020-07-10T13:12:30.471622",
             "status": "INACTIVE"
         },
         "x.teenssites.net": {
