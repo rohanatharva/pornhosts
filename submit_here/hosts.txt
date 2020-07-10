@@ -3,6 +3,7 @@ images1.streamray.com
 images2.streamray.com
 images3.streamray.com
 images4.streamray.com
+partners.streamray.com
 www.vod.com
 img.vod.com
 img1.vod.com
