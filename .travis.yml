@@ -55,9 +55,9 @@ install:
 
 git:
   depth: 2
-#branches:
-  #only:
-  #- master
+branches:
+  only:
+  - master
   #- pyfunceble-processing
 
 matrix:
