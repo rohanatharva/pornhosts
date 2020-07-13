@@ -1,12 +1,3 @@
----
-name: default
-about: Use this template to submit directly to the list and skip adding a issue first
-title: ""
-labels: NSFW Adult Material
-assignees: Spirillen
-projects: https://github.com/orgs/Import-External-Sources/projects/2
----
-
 I believe this domain is an Adult(-related) domain, that have to be blocked as..
 
 ```python
