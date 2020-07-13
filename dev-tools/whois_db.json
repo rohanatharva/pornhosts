@@ -11825,8 +11825,8 @@
         "state": "future"
     },
     "amateurgalore.net": {
-        "epoch": 1594512000.0,
-        "expiration_date": "12-jul-2020",
+        "epoch": 1626048000.0,
+        "expiration_date": "12-jul-2021",
         "state": "future"
     },
     "amateurgirlfriends.org": {
@@ -15880,8 +15880,8 @@
         "state": "future"
     },
     "barebackistan.com": {
-        "epoch": 1594512000.0,
-        "expiration_date": "12-jul-2020",
+        "epoch": 1657584000.0,
+        "expiration_date": "12-jul-2022",
         "state": "future"
     },
     "baredump.com": {
@@ -24680,8 +24680,8 @@
         "state": "future"
     },
     "dvdgayonline.com": {
-        "epoch": 1594425600.0,
-        "expiration_date": "11-jul-2020",
+        "epoch": 1625961600.0,
+        "expiration_date": "11-jul-2021",
         "state": "future"
     },
     "dvdtrailertube.com": {
@@ -25290,8 +25290,8 @@
         "state": "future"
     },
     "efappy.com": {
-        "epoch": 1594512000.0,
-        "expiration_date": "12-jul-2020",
+        "epoch": 1657584000.0,
+        "expiration_date": "12-jul-2022",
         "state": "future"
     },
     "efeeders.com": {
@@ -27190,8 +27190,8 @@
         "state": "future"
     },
     "fabhairypussy.com": {
-        "epoch": 1594512000.0,
-        "expiration_date": "12-jul-2020",
+        "epoch": 1626048000.0,
+        "expiration_date": "12-jul-2021",
         "state": "future"
     },
     "fabianomotta.com": {
@@ -31280,8 +31280,8 @@
         "state": "future"
     },
     "gayjection.com": {
-        "epoch": 1594425600.0,
-        "expiration_date": "11-jul-2020",
+        "epoch": 1625961600.0,
+        "expiration_date": "11-jul-2021",
         "state": "future"
     },
     "gaymaletube.com": {
@@ -50665,8 +50665,8 @@
         "state": "future"
     },
     "pornogrund.com": {
-        "epoch": 1594425600.0,
-        "expiration_date": "11-jul-2020",
+        "epoch": 1625961600.0,
+        "expiration_date": "11-jul-2021",
         "state": "future"
     },
     "pornohd.blog.br": {
@@ -55417,6 +55417,11 @@
     "s-angels.com": {
         "epoch": 1616198400.0,
         "expiration_date": "20-mar-2021",
+        "state": "future"
+    },
+    "s-hentai.com": {
+        "epoch": 1618876800.0,
+        "expiration_date": "20-apr-2021",
         "state": "future"
     },
     "s-iwantyou.com": {
@@ -60917,6 +60922,11 @@
     "streamhentaimovies.com": {
         "epoch": 1609804800.0,
         "expiration_date": "05-jan-2021",
+        "state": "future"
+    },
+    "streamray.com": {
+        "epoch": 1632096000.0,
+        "expiration_date": "20-sep-2021",
         "state": "future"
     },
     "streamsex.com": {
@@ -69770,9 +69780,9 @@
         "state": "future"
     },
     "xnxxhamster.co": {
-        "epoch": 1593734400.0,
-        "expiration_date": "03-jul-2020",
-        "state": "past"
+        "epoch": 1625270400.0,
+        "expiration_date": "03-jul-2021",
+        "state": "future"
     },
     "xnxxhamster.net": {
         "epoch": 1597017600.0,
@@ -72774,9 +72784,19 @@
         "expiration_date": "27-nov-2020",
         "state": "future"
     },
+    "zwittersex.net": {
+        "epoch": 1614643200.0,
+        "expiration_date": "02-mar-2021",
+        "state": "future"
+    },
     "zx6.ru": {
         "epoch": "1587938400",
         "expiration_date": "27-apr-2020",
+        "state": "future"
+    },
+    "zxfinder.com": {
+        "epoch": 1617062400.0,
+        "expiration_date": "30-mar-2021",
         "state": "future"
     },
     "zybezradio.com": {
@@ -72787,6 +72807,11 @@
     "zytpirwai.net": {
         "epoch": 1600034400,
         "expiration_date": "14-sep-2020",
+        "state": "future"
+    },
+    "zz3x.com": {
+        "epoch": 1611100800.0,
+        "expiration_date": "20-jan-2021",
         "state": "future"
     },
     "zzbroya.com.ua": {

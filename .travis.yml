@@ -50,14 +50,14 @@ install:
   - pip --version
   - conda --version
   #- pip3 install --upgrade pip
-  - pip -q install pyfunceble-dev ultimate-hosts-blacklist-whitelist
+  - pip -q install pyfunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
   #- pip3 install git+https://github.com/funilrys/PyFunceble.git@dev
 
 git:
   depth: 2
-#branches:
-  #only:
-  #- master
+branches:
+  only:
+  - master
   #- pyfunceble-processing
 
 matrix:
