@@ -1,18 +1,3 @@
----
-name: default
-about: I would like to contribute with the following domain to the hosts file
-title: 'Type only domain here'
-labels: NSFW Adult Material
-assignees: spirillen
-reviewers: Clefspeare13, Spirillen
-projects: https://github.com/orgs/Import-External-Sources/projects/2
----
-
-<!-- Keep any domains in back ticks `(`)`
-
-Screenshot is required within the <details> pane. Leave a blank line before 
-and after the image link -->
-
 I believe this domain is an Adult(-related) domain --> that have to 
 be blocked as..
 
@@ -20,6 +5,8 @@ be blocked as..
 example.net
 www.example.net
 ```
+
+## Comments
 
 ## Screenshots
 
