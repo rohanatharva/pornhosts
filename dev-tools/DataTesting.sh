@@ -38,7 +38,7 @@ RunFunceble () {
 	printf "\n\tYou are running with RunFunceble\n\n"
 
         PyFunceble --ci -q -h -m -p "$(nproc --ignore=1)" \
-	    -ex --plain --dns 127.0.0.1:5300 \
+	    -ex --plain --dns 127.0.0.1:5300 -db --database-type mariadb \
             --autosave-minutes 38 --share-logs --http --idna --dots \
             --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
             --ci-distribution-branch "${TRAVIS_BRANCH}" \
