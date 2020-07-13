@@ -1645,6 +1645,13 @@
             "last_retested_at_iso": "2020-07-11T17:42:47.291042",
             "status": "INACTIVE"
         },
+        "www.nudeheat.com": {
+            "included_at_epoch": 1594579946.017502,
+            "included_at_iso": "2020-07-12T18:52:26.017502",
+            "last_retested_at_epoch": 1594579946.017502,
+            "last_retested_at_iso": "2020-07-12T18:52:26.017502",
+            "status": "INACTIVE"
+        },
         "www.nudephotolinks.com": {
             "included_at_epoch": 1594155500.243371,
             "included_at_iso": "2020-07-07T20:58:20.243371",
