@@ -10103,3 +10103,12 @@ zzitube.com
 zzztube.com
 xhamster12.com
 
+xhcdn.com
+
+static-lvlt.xhcdn.com
+thumb-lvlt.xhcdn.com
+thumb-user.xhcdn.com
+thumb-v1.xhcdn.com
+thumb-v2.xhcdn.com
+thumb-v3.xhcdn.com
+thumb-v4.xhcdn.com
