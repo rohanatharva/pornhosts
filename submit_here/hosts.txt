@@ -10064,3 +10064,6 @@ cdna.luscious.net
 api.luscious.net
 upload.luscious.net
 w1024.luscious.net
+e-hentai.org
+forums.e-hentai.org
+upload.e-hentai.org
