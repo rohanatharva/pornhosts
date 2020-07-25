@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# Copyright: https://www.mypdns.org/
+# Content: https://www.mypdns.org/p/Spirillen/
+# Source: https://github.com/Import-External-Sources/pornhosts
+# License: https://www.mypdns.org/w/License
+# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+#
+# License in short:
+# You are free to copy and distribute this file for non-commercial uses,
+# as long the original URL and attribution is included.
+#
+# Please forward any additions, corrections or comments by logging an
+# issue at https://www.mypdns.org/maniphest/
+
+# Execute this script as bash porn/porn.sh from the root folder
+
+set -e #-xx
+
+testDomains=$(git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
+  grep -e "^+" | tail -1 | cut -d "+" -f2 )
+
+RunFunceble () {
+
+    cd "${TRAVIS_BUILD_DIR}/dev-tools" || exit 1
+
+    hash PyFunceble
+
+	printf "\n\tYou are running with RunFunceble\n\n"
+
+	PyFunceble --version
+
+        PyFunceble --ci -m -p "$(nproc --ignore=1)" \
+	        -ex -db --database-type mariadb \
+            --autosave-minutes 38 --share-logs --idna \
+            --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
+            --syntax -d "${testDomains}"
+
+}
+RunFunceble
+
+exit ${?}
