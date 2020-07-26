@@ -9962,3 +9962,11 @@ pt.spankbang.com
 nl.spankbang.com
 se.spankbang.com
 m.spankbang.com
+sb-cd.com
+assets.sb-cd.com
+tb1.sb-cd.com
+tb2.sb-cd.com
+tb3.sb-cd.com
+tb4.sb-cd.com
+tb5.sb-cd.com
+vstream-9.sb-cd.com
