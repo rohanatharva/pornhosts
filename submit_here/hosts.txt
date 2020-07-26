@@ -4259,7 +4259,6 @@ p2.drtst.com
 p2.iceppsn.com
 p3.drtst.com
 p3.iceppsn.com
-p3rv3ct-gifs.tumblr.com
 p4.drtst.com
 p4.iceppsn.com
 p5.drtst.com
