@@ -2,7 +2,7 @@
 
 # Copyright: https://www.mypdns.org/
 # Content: https://www.mypdns.org/p/Spirillen/
-# Source: https://github.com/Import-External-Sources/pornhosts
+# Source: https://www.mypdns.org/source/PornHosts/
 # License: https://www.mypdns.org/w/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
@@ -18,7 +18,7 @@
 set -e #-xx
 
 testDomains=$(git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
-  grep -e "^+" | tail -1 | cut -d "+" -f2 )
+  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)")
 
 RunFunceble () {
 
