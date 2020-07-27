@@ -1,24 +1,16 @@
 #!/usr/bin/env bash
 
-# Copyright: https://www.mypdns.org/
-# Content: https://www.mypdns.org/p/Spirillen/
-# Source: https://www.mypdns.org/source/PornHosts/
-# License: https://www.mypdns.org/w/License
-# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
-#
-# License in short:
-# You are free to copy and distribute this file for non-commercial uses,
-# as long the original URL and attribution is included.
-#
-# Please forward any additions, corrections or comments by logging an
-# issue at https://www.mypdns.org/maniphest/
-
-# Execute this script as bash porn/porn.sh from the root folder
-
 set -e #-xx
+testFile="${TRAVIS_BUILD_DIR}/test.tmp"
 
-testDomains=$(git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
-  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)")
+git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
+  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "$testFile"
+
+git log --word-diff=porcelain -1 -p  -- submit_here/mobile.txt | \
+  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "$testFile"
+
+git log --word-diff=porcelain -1 -p  -- submit_here/snuff.txt | \
+  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "$testFile"
 
 RunFunceble () {
 
@@ -34,9 +26,25 @@ RunFunceble () {
 	        -ex -db --database-type mariadb \
             --autosave-minutes 38 --share-logs --idna \
             --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
-            --syntax -d "${testDomains}"
+            --syntax -f "${testFile}"
 
 }
 RunFunceble
 
 exit ${?}
+
+
+# Copyright: https://www.mypdns.org/
+# Content: https://www.mypdns.org/p/Spirillen/
+# Source: https://www.mypdns.org/source/PornHosts/
+# License: https://www.mypdns.org/w/License
+# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+#
+# License in short:
+# You are free to copy and distribute this file for non-commercial uses,
+# as long the original URL and attribution is included.
+#
+# Please forward any additions, corrections or comments by logging an
+# issue at https://www.mypdns.org/maniphest/
+
+# Execute this script as bash porn/porn.sh from the root folder
