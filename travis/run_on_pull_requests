@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e #-xx
+set -e -xx
 testFile="${TRAVIS_BUILD_DIR}/test.tmp"
 
 git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
@@ -11,6 +11,8 @@ git log --word-diff=porcelain -1 -p  -- submit_here/mobile.txt | \
 
 git log --word-diff=porcelain -1 -p  -- submit_here/snuff.txt | \
   grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "$testFile"
+
+cat "$testFile"
 
 RunFunceble () {
 
