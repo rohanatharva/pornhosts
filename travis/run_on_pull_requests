@@ -8,11 +8,11 @@ touch "${testFile}"
 git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
   grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "${testFile}"
 
-git log --word-diff=porcelain -1 -p  -- submit_here/mobile.txt | \
-  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "${testFile}"
+#git log --word-diff=porcelain -1 -p  -- submit_here/mobile.txt | \
+#  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "${testFile}"
 
-git log --word-diff=porcelain -1 -p  -- submit_here/snuff.txt | \
-  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "${testFile}"
+#git log --word-diff=porcelain -1 -p  -- submit_here/snuff.txt | \
+#  grep -e "^+" | cut -d "+" -f2 | grep -vE "^(#|$)" >> "${testFile}"
 
 cat "${testFile}"
 
