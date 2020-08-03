@@ -26,7 +26,7 @@ SyntaxTest () {
 
 	PyFunceble --version
 
-        PyFunceble -m -p "$(nproc --ignore=1)" \
+        PyFunceble -m -p "$(nproc --ignore=1)" -nf \
             --hierarchical -ex --syntax -f "${testFile}"
 }
 
@@ -39,7 +39,7 @@ AvaileblityTest () {
 	printf "\n\tYou are running with AvaileblityTest\n\n"
 
         PyFunceble -m -p "$(nproc --ignore=1)" \
-            -ex --share-logs --idna -a \
+            -ex --share-logs --idna -a -nf \
             --hierarchical -f "${testFile}"
 }
 
