@@ -51,6 +51,3 @@ RunFunceble () {
 RunFunceble
 
 exit ${?}
-
-# Temponary disable sql
-#  -db --database-type mariadb
