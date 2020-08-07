@@ -25,9 +25,8 @@ SyntaxTest () {
 
 	PyFunceble --version
 
-        PyFunceble --ci -m -p "$(nproc --ignore=1)" \
-            --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
-            -ex --syntax -f "${testFile}"
+        PyFunceble -m -p "$(nproc --ignore=1)" -nf \
+            --hierarchical -ex --syntax -f "${testFile}"
 }
 
 AvaileblityTest () {
@@ -38,11 +37,9 @@ AvaileblityTest () {
 
 	printf "\n\tYou are running with AvaileblityTest\n\n"
 
-        PyFunceble --ci -m -p "$(nproc --ignore=1)" \
-	    -ex -db --database-type mariadb \
-            --share-logs --idna \
-            --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
-            -f "${testFile}"
+        PyFunceble -m -p "$(nproc --ignore=1)" \
+            -ex --share-logs --idna -a -nf \
+            --hierarchical -f "${testFile}"
 }
 
 SyntaxTest
