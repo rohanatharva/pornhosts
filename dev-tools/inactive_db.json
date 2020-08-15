@@ -3,8 +3,8 @@
         "360safe.xn--com-5ma.cn": {
             "included_at_epoch": 1597484858.931568,
             "included_at_iso": "2020-08-15T09:47:38.931568",
-            "last_retested_at_epoch": 1597488209.46343,
-            "last_retested_at_iso": "2020-08-15T10:43:29.463430",
+            "last_retested_at_epoch": 1597508569.559571,
+            "last_retested_at_iso": "2020-08-15T16:22:49.559571",
             "status": "INACTIVE"
         },
         "404.elitedollars.com": {
@@ -26,6 +26,13 @@
             "included_at_iso": "2020-08-15T09:47:52.957208",
             "last_retested_at_epoch": 1597484872.957208,
             "last_retested_at_iso": "2020-08-15T09:47:52.957208",
+            "status": "INACTIVE"
+        },
+        "ads.lovercash.com": {
+            "included_at_epoch": 1597508590.978353,
+            "included_at_iso": "2020-08-15T16:23:10.978353",
+            "last_retested_at_epoch": 1597508590.978353,
+            "last_retested_at_iso": "2020-08-15T16:23:10.978353",
             "status": "INACTIVE"
         },
         "ads.playboy.bg": {
@@ -621,6 +628,13 @@
             "included_at_iso": "2020-08-15T09:58:39.086618",
             "last_retested_at_epoch": 1597485519.086618,
             "last_retested_at_iso": "2020-08-15T09:58:39.086618",
+            "status": "INACTIVE"
+        },
+        "outils.yesmessenger.com": {
+            "included_at_epoch": 1597509137.773559,
+            "included_at_iso": "2020-08-15T16:32:17.773559",
+            "last_retested_at_epoch": 1597509137.773559,
+            "last_retested_at_iso": "2020-08-15T16:32:17.773559",
             "status": "INACTIVE"
         },
         "pendejas.com.ar": {
