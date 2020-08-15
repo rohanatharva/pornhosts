@@ -3155,6 +3155,7 @@ hentaiecchi.booru.org
 hentai-for.net
 hentaihand.com
 hentai-hole.tumblr.com
+hentai-img.com
 hentailove.tv
 hentai-paradise.fr
 hentai-porn-blog.com
@@ -5445,6 +5446,7 @@ static2.hentai-cosplays.com
 static3.dditscdn.com
 static4.dditscdn.com
 static5.porn-images-xxx.com
+static9.hentai-img.com
 static-bp2.cdnbm.net
 static-bp3.cdnbm.net
 static-bp.cdnbm.net
@@ -5453,6 +5455,7 @@ static.f95zone.to
 static.flyflv.com
 static.freesexyindians.com
 static.hentai-cosplays.com
+static.hentai-img.com
 static.hentai-paradise.fr
 static-l3.xnxx-cdn.com
 static-l3.xvideos-cdn.com
