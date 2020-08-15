@@ -2,9 +2,9 @@
 name: Snuff
 about: I would like to contribute with the following domain to the hosts file as *snuff*
 title: 'NSFW: domain.tld'
-labels: Snuff, NSFW Adult Material
+labels: NSFW Adult Material, Snuff
 assignees: spirillen
-projects: https://github.com/orgs/Import-External-Sources/projects/2
+
 ---
 
 <!-- Keep any domains in back ticks `(`)`

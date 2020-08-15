@@ -2,28 +2,29 @@
 name: Removal request
 about: If you have found a dead domain listed in the hosts file
 title: ''
-labels: NSFW Adult Material, invalid
+labels: Removal Request
 assignees: ''
-projects: https://github.com/orgs/Import-External-Sources/projects/2
+
 ---
 
 I believe this specific domain(s) is to be moved from the hosts file as it no longer is active for Adult material
 
-# Delete this
+## Delete this
 ```
-dead.example..com
+dead.example.com
 ```
 
-# Keep this
+## Keep this
 ```
-example..com
-alive.example..com
+alive.example.com
 ```
+
+## Comments
+
 
 ## Screenshots
 
 <details><Summary>Screenshot</summary>
-
 
 
 </details>
