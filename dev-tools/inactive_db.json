@@ -3,8 +3,8 @@
         "360safe.xn--com-5ma.cn": {
             "included_at_epoch": 1597484858.931568,
             "included_at_iso": "2020-08-15T09:47:38.931568",
-            "last_retested_at_epoch": 1597521255.755755,
-            "last_retested_at_iso": "2020-08-15T19:54:15.755755",
+            "last_retested_at_epoch": 1597522365.893431,
+            "last_retested_at_iso": "2020-08-15T20:12:45.893431",
             "status": "INACTIVE"
         },
         "404.elitedollars.com": {
@@ -2688,11 +2688,25 @@
             "last_retested_at_iso": "2020-08-15T10:33:06.590725",
             "status": "INACTIVE"
         },
+        "www.singlesadnetwork.com": {
+            "included_at_epoch": 1597523115.196936,
+            "included_at_iso": "2020-08-15T20:25:15.196936",
+            "last_retested_at_epoch": 1597523115.196936,
+            "last_retested_at_iso": "2020-08-15T20:25:15.196936",
+            "status": "INACTIVE"
+        },
         "www.sksawi.info": {
             "included_at_epoch": 1597487592.232088,
             "included_at_iso": "2020-08-15T10:33:12.232088",
             "last_retested_at_epoch": 1597487592.232088,
             "last_retested_at_iso": "2020-08-15T10:33:12.232088",
+            "status": "INACTIVE"
+        },
+        "www.sluttyred.com": {
+            "included_at_epoch": 1597523124.391434,
+            "included_at_iso": "2020-08-15T20:25:24.391434",
+            "last_retested_at_epoch": 1597523124.391434,
+            "last_retested_at_iso": "2020-08-15T20:25:24.391434",
             "status": "INACTIVE"
         },
         "www.srandel.com": {
@@ -2707,6 +2721,13 @@
             "included_at_iso": "2020-08-15T10:33:30.013348",
             "last_retested_at_epoch": 1597487610.013348,
             "last_retested_at_iso": "2020-08-15T10:33:30.013348",
+            "status": "INACTIVE"
+        },
+        "www.stars-celebrity.com": {
+            "included_at_epoch": 1597523138.932549,
+            "included_at_iso": "2020-08-15T20:25:38.932549",
+            "last_retested_at_epoch": 1597523138.932549,
+            "last_retested_at_iso": "2020-08-15T20:25:38.932549",
             "status": "INACTIVE"
         },
         "www.static.contents.sex-explorer.com": {
