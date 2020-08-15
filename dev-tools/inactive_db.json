@@ -3,8 +3,8 @@
         "360safe.xn--com-5ma.cn": {
             "included_at_epoch": 1597484858.931568,
             "included_at_iso": "2020-08-15T09:47:38.931568",
-            "last_retested_at_epoch": 1597522365.893431,
-            "last_retested_at_iso": "2020-08-15T20:12:45.893431",
+            "last_retested_at_epoch": 1597523487.393896,
+            "last_retested_at_iso": "2020-08-15T20:31:27.393896",
             "status": "INACTIVE"
         },
         "404.elitedollars.com": {
@@ -3099,6 +3099,13 @@
             "included_at_iso": "2020-08-15T10:38:05.085430",
             "last_retested_at_epoch": 1597487885.08543,
             "last_retested_at_iso": "2020-08-15T10:38:05.085430",
+            "status": "INACTIVE"
+        },
+        "www.yesmessenger.com": {
+            "included_at_epoch": 1597523601.726489,
+            "included_at_iso": "2020-08-15T20:33:21.726489",
+            "last_retested_at_epoch": 1597523601.726489,
+            "last_retested_at_iso": "2020-08-15T20:33:21.726489",
             "status": "INACTIVE"
         },
         "www.yespornplease.com": {
