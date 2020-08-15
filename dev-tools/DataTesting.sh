@@ -37,8 +37,8 @@ RunFunceble () {
 
 	printf "\n\tYou are running with RunFunceble\n\n"
 
-        PyFunceble --ci -q -h -m -p "$(nproc --ignore=1)" \
-	    -ex --plain --dns 127.0.0.1:5300 -db --database-type mariadb \
+        PyFunceble --ci -q -h -ex --plain \
+	    --dns 127.0.0.1:5300 8.8.8.8 8.8.4.4 \
             --autosave-minutes 38 --share-logs --http --idna --dots \
             --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
             --ci-distribution-branch "${TRAVIS_BRANCH}" \
@@ -51,3 +51,8 @@ RunFunceble () {
 RunFunceble
 
 exit ${?}
+
+# Travis has become single core
+#
+# -m -p "$(nproc --ignore=1)"
+# -db --database-type mariadb
