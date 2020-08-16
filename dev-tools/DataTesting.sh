@@ -38,10 +38,11 @@ RunFunceble () {
 	printf "\n\tYou are running with RunFunceble\n\n"
 
         PyFunceble --ci -q -h -ex --plain \
-	    --dns 127.0.0.1:5300 95.216.209.53 116.203.32.67 8.8.8.8 8.8.4.4 \
+	    --dns 127.0.0.1:5300 95.216.209.53 116.203.32.67 \
             --autosave-minutes 15 --share-logs --http --idna --dots \
             --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
             --ci-distribution-branch "${TRAVIS_BRANCH}" \
+	    -db --database-type mariadb \
             --commit-autosave-message "V1.${version}.${TRAVIS_BUILD_NUMBER} [Auto Saved]" \
             --commit-results-message "V1.${version}.${TRAVIS_BUILD_NUMBER} [ci skip]" \
             --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" \
