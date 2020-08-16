@@ -11,8 +11,8 @@ cache:
 env:
   global:
   - GIT_NAME: Travis CI
-  - GIT_EMAIL: "travis@travis-ci.org"
-  #- GIT_EMAIL: 44526987+spirillen@users.noreply.github.com
+  #- GIT_EMAIL: "travis@travis-ci.org"
+  - GIT_EMAIL: 44526987+spirillen@users.noreply.github.com
   - TRAVIS_REPO_SLUG: spirillen/pornhosts
   - GIT_BRANCH: $"{TRAVIS_BRANCH}"
   - TZ: UTC
@@ -29,14 +29,9 @@ addons:
     - dos2unix
     - msttcorefonts
     - lsof
-    #- pdns-recursor
 
 install:
   - sudo bash "${TRAVIS_BUILD_DIR}/dev-tools/setup_recursor.sh"
-  # Test of pdns-recursor
-  #- sleep 5 # Let the recursor load the RPZ zone before testing it
-  #- sudo lsof -i :5300 # Who is actually listening on port 53
-  #- drill @127.0.0.1 21x.org -p 5300
   - export PATH="${HOME}/miniconda/bin:${PATH}"
   - if [[ "${TRAVIS_OS_NAME}" == "osx" ]]; then wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh; else wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh; fi
   - bash miniconda.sh -b -p ${HOME}/miniconda
@@ -49,9 +44,8 @@ install:
   - python --version --version
   - pip --version
   - conda --version
-  #- pip3 install --upgrade pip
-  - pip -q install pyfunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
-  #- pip3 install git+https://github.com/funilrys/PyFunceble.git@dev
+  #- pip -q install pyfunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
+  - pip -q install --no-cache-dir -U git+https://github.com/funilrys/PyFunceble@raw2sqlalchemy ultimate-hosts-blacklist-whitelist-dev dnspython[dnssec,idna]
 
 git:
   depth: 2
