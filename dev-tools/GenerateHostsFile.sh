@@ -17,13 +17,17 @@
 set -e
 
 # Run script in verbose
-# set -x
+set -x
 
 printf "\n\tRunning GenerateHostFile.sh\n\n"
 
 # ******************
 echo -e "\n\tSet Some Variables"
 # ******************
+
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
 
 now=$(date '+%F %T %z (%Z)')
 my_git_tag="build: ${TRAVIS_BUILD_NUMBER}"
@@ -33,15 +37,11 @@ activelist="${git_dir}/dev-tools/output/domains/ACTIVE/list"
 echo -e "\n\tSet the output files"
 # *********************************************************************************
 
-# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
-# that to git_dir
-git_dir="$(git rev-parse --show-toplevel)"
-
 outdir="${git_dir}/download_here" # no trailing / as it would make a double //
 ssoutdir="${outdir}/safesearch" # no trailing / as it would make a double //
 
 # First let us clean out old data in output folders
-echo -e "\n\tDeleting files in\n\t${outdir}\n\nAND\n\t${ssoutdir}\n"
+echo -e "\n\tDeleting files in\n\t${outdir}\n\n\tAND\n\n\t${ssoutdir}\n"
 
 #find "${outdir}" -type f -delete
 #find "${ssoutdir}" -type f -delete
@@ -113,7 +113,7 @@ printf "\n\tUpdate our safe search templates\n"
 
 wget -qO "${sshostsTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/hosts/raw/master/matrix/safesearch.hosts'
 wget -qO "${ssdnsmasqTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/dnsmasq/raw/master/safesearch.dnsmasq.conf'
-wget -qO "${ssrpzTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/bind-9/raw/master/safesearch.mypdns.cloud.rpz'
+wget -qO "${ssrpzTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/bind-9/raw/master/rpz_zones/safesearch.mypdns.cloud.rpz'
 wget -qO "${ssunboundTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/unbound/raw/master/safesearch.conf'
 
 # *********************************************************************************

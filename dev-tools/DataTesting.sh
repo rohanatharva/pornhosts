@@ -38,11 +38,11 @@ RunFunceble () {
     #ulimit -u
     cd "${git_dir}/dev-tools" || exit 1
 
-    hash PyFunceble
+    hash pyfunceble
 
 	printf "\n\tYou are running with RunFunceble\n\n"
 
-        PyFunceble --ci -q -h -ex --plain \
+        pyfunceble --ci -q -h -ex --plain \
 	    --dns 127.0.0.1:5300 95.216.209.53 116.203.32.67 \
             --autosave-minutes 15 --share-logs --http --idna --dots \
             --hierarchical --ci-branch "${TRAVIS_BRANCH}" \
