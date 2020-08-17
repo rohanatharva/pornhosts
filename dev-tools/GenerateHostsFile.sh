@@ -43,8 +43,8 @@ ssoutdir="${outdir}/safesearch" # no trailing / as it would make a double //
 # First let us clean out old data in output folders
 echo -e "\n\tDeleting files in\n\t${outdir}\n\nAND\n\t${ssoutdir}\n"
 
-find "${outdir}" -type f -delete
-find "${ssoutdir}" -type f -delete
+#find "${outdir}" -type f -delete
+#find "${ssoutdir}" -type f -delete
 
 # *********************************************************************************
 echo -e "\n\t Generate the raw data list, as we need it for the rest of our work"
