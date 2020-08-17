@@ -25,8 +25,8 @@ version=$(date +%Y.%m)
 # that to git_dir
 git_dir="$(git rev-parse --show-toplevel)"
 
-#testFile="${git_dir}/PULL_REQUESTS/domains.txt"
-testFile="${git_dir}/dev-tools/debug.list"
+testFile="${git_dir}/PULL_REQUESTS/domains.txt"
+#testFile="${git_dir}/dev-tools/debug.list"
 testDomains=$(git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
   grep -e "^+" | tail -1 | cut -d "+" -f2 )
 

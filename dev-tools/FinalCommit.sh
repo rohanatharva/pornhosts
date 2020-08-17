@@ -30,6 +30,25 @@ printf "\n\tRunning FinalCommit.sh\n"
 # that to git_dir
 git_dir="$(git rev-parse --show-toplevel)"
 
+outdir="${git_dir}/download_here" # no trailing / as it would make a double //
+ssoutdir="${outdir}/safesearch" # no trailing / as it would make a double //
+
+# *********************************************************************************
+echo -e "\n\tNext ensure all output folders is there"
+# *********************************************************************************
+mkdir -p "${outdir}/0.0.0.0" \
+  "${outdir}/127.0.0.1" \
+  "${outdir}/mobile" \
+  "${outdir}/dnsmasq" \
+  "${outdir}/rpz" \
+  "${outdir}/unbound/" \
+  "${ssoutdir}/0.0.0.0" \
+  "${ssoutdir}/127.0.0.1" \
+  "${ssoutdir}/mobile" \
+  "${ssoutdir}/dnsmasq" \
+  "${ssoutdir}/rpz" \
+  "${ssoutdir}/unbound/"
+
 #exit 0
 
 #cat ${git_dir}/dev-tools/output/domains/ACTIVE/list | grep -v "^$" | grep -v "^#" > tempdomains.txt
