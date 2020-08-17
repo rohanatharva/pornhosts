@@ -22,7 +22,7 @@ set -e
 printf "\n\tRunning GenerateHostFile.sh\n\n"
 
 # ******************
-# Set Some Variables
+echo -e "\n\tSet Some Variables"
 # ******************
 
 now=$(date '+%F %T %z (%Z)')
@@ -30,7 +30,7 @@ my_git_tag="build: ${TRAVIS_BUILD_NUMBER}"
 activelist="${git_dir}/dev-tools/output/domains/ACTIVE/list"
 
 # *********************************************************************************
-# Set the output files
+echo -e "\n\tSet the output files"
 # *********************************************************************************
 
 # As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
@@ -38,13 +38,16 @@ activelist="${git_dir}/dev-tools/output/domains/ACTIVE/list"
 git_dir="$(git rev-parse --show-toplevel)"
 
 outdir="${git_dir}/download_here" # no trailing / as it would make a double //
+ssoutdir="${outdir}/safesearch" # no trailing / as it would make a double //
 
 # First let us clean out old data in output folders
+echo -e "\n\tDeleting files in\n\t${outdir}\n\nAND\n\t${ssoutdir}\n"
 
 find "${outdir}" -type f -delete
+find "${ssoutdir}" -type f -delete
 
 # *********************************************************************************
-# Generate the raw data list, as we need it for the rest of our work
+echo -e "\n\t Generate the raw data list, as we need it for the rest of our work"
 # *********************************************************************************
 
 rawlist="${outdir}/active_raw_data.txt"
@@ -54,13 +57,13 @@ grep -vE "^(#|$)" "${activelist}" > "${rawlist}"
 bad_referrers=$(wc -l < "${rawlist}")
 
 # *********************************************************************************
-# Print some stats
+echo -e "\n\tPrint some stats"
 # *********************************************************************************
 printf "\n\tRows in active list: $(wc -l < "${activelist}")\n"
 printf "\n\tRows of raw data: ${bad_referrers}\n"
 
 # *********************************************************************************
-# Ordinary without safe search records
+echo -e "\n\tOrdinary without safe search records"
 # *********************************************************************************
 hosts="${outdir}/0.0.0.0/hosts"
 hosts127="${outdir}/127.0.0.1/hosts"
@@ -70,10 +73,8 @@ rpz="${outdir}/rpz/pornhosts.rpz"
 unbound="${outdir}/unbound/pornhosts.zone"
 
 # *********************************************************************************
-# Safe Search enabled output
+echo -e "\n\tSafe Search enabled output"
 # *********************************************************************************
-ssoutdir="${outdir}/safesearch" # no trailing / as it would make a double //
-
 sshosts="${ssoutdir}/0.0.0.0/hosts"
 sshosts127="${ssoutdir}/127.0.0.1/hosts"
 ssmobile="${ssoutdir}/mobile/hosts"
@@ -82,7 +83,7 @@ ssdnsmasq="${ssoutdir}/dnsmasq/pornhosts.conf"
 ssunbound="${ssoutdir}/unbound/pornhosts.zone"
 
 # *********************************************************************************
-# Set templates path
+echo -e "\n\tSet templates path"
 # *********************************************************************************
 templpath="${git_dir}/dev-tools/templates"
 
@@ -92,7 +93,7 @@ dnsmasqTempl=${templpath}/ddwrt-dnsmasq.template
 #unboundTempl # None as we print the header directly
 
 # *********************************************************************************
-# Safe Search is in sub-path
+echo -e "\n\tSafe Search is in sub-path"
 # *********************************************************************************
 
 # TODO Get templates from the master source at 
@@ -116,10 +117,9 @@ wget -qO "${ssrpzTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-too
 wget -qO "${ssunboundTempl}" 'https://gitlab.com/my-privacy-dns/rpz-dns-firewall-tools/unbound/raw/master/safesearch.conf'
 
 # *********************************************************************************
-# Next ensure all output folders is there
+echo -e "\n\tNext ensure all output folders is there"
 # *********************************************************************************
-mkdir -p \
-  "${outdir}/0.0.0.0" \
+mkdir -p "${outdir}/0.0.0.0" \
   "${outdir}/127.0.0.1" \
   "${outdir}/mobile" \
   "${outdir}/dnsmasq" \

@@ -26,17 +26,23 @@ set -e #-x -v
 
 printf "\n\tRunning FinalCommit.sh\n"
 
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
 #exit 0
 
-#cat ${TRAVIS_BUILD_DIR}/dev-tools/output/domains/ACTIVE/list | grep -v "^$" | grep -v "^#" > tempdomains.txt
-#mv tempdomains.txt ${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt
+#cat ${git_dir}/dev-tools/output/domains/ACTIVE/list | grep -v "^$" | grep -v "^#" > tempdomains.txt
+#mv tempdomains.txt ${git_dir}/PULL_REQUESTS/domains.txt
 
-if [ -f "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" ]
+if [ -f "${git_dir}/dev-tools/output/domains/INACTIVE/list" ]
 then
-	rm "${TRAVIS_BUILD_DIR}/submit_here/apparently_inactive.txt"
-	grep -vE "^($|#)" "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INACTIVE/list" \
-	  > "${TRAVIS_BUILD_DIR}/submit_here/apparently_inactive.txt"
-	#sort -u -f "${TRAVIS_BUILD_DIR}/submit_here/apparently_inactive.txt"
+	echo -e "\nMoving the INACTIVE list to submit_here\n"
+	rm "${git_dir}/submit_here/apparently_inactive.txt"
+	touch "${git_dir}/submit_here/apparently_inactive.txt"
+	grep -vE "^($|#)" "${git_dir}/dev-tools/output/domains/INACTIVE/list" \
+	  > "${git_dir}/submit_here/apparently_inactive.txt"
+	#sort -u -f "${git_dir}/submit_here/apparently_inactive.txt"
 #else
 	#exit 0
 fi
@@ -44,10 +50,11 @@ fi
 #exit 0
 
 ## fail the pyfunceble test if any submissions are invalid
-if [ -f "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INVALID/list" ]
+if [ -f "${git_dir}/dev-tools/output/domains/INVALID/list" ]
 then
-	printf "The following are invalid  $(cat "${TRAVIS_BUILD_DIR}/dev-tools/output/domains/INVALID/list")\n"
-	exit 99
+	echo -e "The following are invalid\n\n"
+	cat "${git_dir}/dev-tools/output/domains/INVALID/list"
+	#exit 99
 fi
 
 # ***************************************************************************
@@ -56,8 +63,8 @@ printf "\n\tGenerate our host file\n"
 
 #exit 0
 
-#bash ${TRAVIS_BUILD_DIR}/dev-tools/UpdateReadme.sh
-bash "${TRAVIS_BUILD_DIR}/dev-tools/GenerateHostsFile.sh"
+#bash ${git_dir}/dev-tools/UpdateReadme.sh
+bash "${git_dir}/dev-tools/GenerateHostsFile.sh"
 
 # *************************************************************
 # Travis now moves to the before_deploy: section of .travis.yml
