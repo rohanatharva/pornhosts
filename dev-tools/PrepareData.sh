@@ -17,15 +17,19 @@
 # Setup input bots and referer lists
 # **********************************
 
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
 # Type the url of source here
 #SOURCE=""
-hostsFile="${TRAVIS_BUILD_DIR}/submit_here/hosts.txt"
-snuff="${TRAVIS_BUILD_DIR}/submit_here/snuff.txt"
-testFile="${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt"
+hostsFile="${git_dir}/submit_here/hosts.txt"
+snuff="${git_dir}/submit_here/snuff.txt"
+testFile="${git_dir}/PULL_REQUESTS/domains.txt"
 
 # This following should be replaced by a local whitelist
 
-WhiteList="${TRAVIS_BUILD_DIR}/whitelist"
+WhiteList="${git_dir}/whitelist"
 
 getWhiteList () {
     wget -qO- 'https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/whitelist/domain.list' \
@@ -63,7 +67,7 @@ getWhiteList
 
 PrepareLists () {
 
-    mkdir -p "${TRAVIS_BUILD_DIR}/PULL_REQUESTS/"
+    mkdir -p "${git_dir}/PULL_REQUESTS/"
 
     cat "${snuff}" >> "${testFile}"
     cat "${hostsFile}" >> "${testFile}"

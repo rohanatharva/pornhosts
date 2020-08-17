@@ -27,13 +27,17 @@ printf "\n\tRunning GenerateHostFile.sh\n\n"
 
 now=$(date '+%F %T %z (%Z)')
 my_git_tag="build: ${TRAVIS_BUILD_NUMBER}"
-activelist="${TRAVIS_BUILD_DIR}/dev-tools/output/domains/ACTIVE/list"
+activelist="${git_dir}/dev-tools/output/domains/ACTIVE/list"
 
 # *********************************************************************************
 # Set the output files
 # *********************************************************************************
 
-outdir="${TRAVIS_BUILD_DIR}/download_here" # no trailing / as it would make a double //
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
+outdir="${git_dir}/download_here" # no trailing / as it would make a double //
 
 # First let us clean out old data in output folders
 
@@ -80,7 +84,7 @@ ssunbound="${ssoutdir}/unbound/pornhosts.zone"
 # *********************************************************************************
 # Set templates path
 # *********************************************************************************
-templpath="${TRAVIS_BUILD_DIR}/dev-tools/templates"
+templpath="${git_dir}/dev-tools/templates"
 
 hostsTempl=${templpath}/hosts.template
 mobileTempl=${templpath}/mobile.template

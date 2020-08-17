@@ -20,8 +20,13 @@ version=$(date +%Y.%m)
 # ******************
 # Set our Input File
 # ******************
-testFile="${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt"
-#testFile="${TRAVIS_BUILD_DIR}/dev-tools/debug.list"
+
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
+testFile="${git_dir}/PULL_REQUESTS/domains.txt"
+#testFile="${git_dir}/dev-tools/debug.list"
 testDomains=$(git log --word-diff=porcelain -1 -p  -- submit_here/hosts.txt | \
   grep -e "^+" | tail -1 | cut -d "+" -f2 )
 
@@ -31,7 +36,7 @@ RunFunceble () {
     #monthtag="$(date +%m)"
 
     #ulimit -u
-    cd "${TRAVIS_BUILD_DIR}/dev-tools" || exit 1
+    cd "${git_dir}/dev-tools" || exit 1
 
     hash PyFunceble
 
@@ -45,7 +50,7 @@ RunFunceble () {
 	    -db --database-type mariadb \
             --commit-autosave-message "V1.${version}.${TRAVIS_BUILD_NUMBER} [Auto Saved]" \
             --commit-results-message "V1.${version}.${TRAVIS_BUILD_NUMBER} [ci skip]" \
-            --cmd-before-end "bash ${TRAVIS_BUILD_DIR}/dev-tools/FinalCommit.sh" \
+            --cmd-before-end "bash ${git_dir}/dev-tools/FinalCommit.sh" \
             -f "${testFile}"
 
 }
