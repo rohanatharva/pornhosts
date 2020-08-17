@@ -15,6 +15,10 @@
 
 set -e
 
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
 printf "deb [arch=amd64] http://repo.powerdns.com/ubuntu %s-rec-master main\n" \
   "$(lsb_release -cs)" > "/etc/apt/sources.list.d/pdns.list"
 
@@ -28,7 +32,7 @@ curl "https://repo.powerdns.com/CBC8B383-pub.asc" | sudo apt-key add - && \
 # Lets get rit of known deadbeats by loading the Response policy zone
 # for known pirated domains
 
-cp "${TRAVIS_BUILD_DIR}/dev-tools/recursor.lua" "/etc/powerdns/recursor.lua"
+cp "${git_dir}/dev-tools/recursor.lua" "/etc/powerdns/recursor.lua"
 
 # Since this systemd-resolved kill script also killed Travis we most change
 # the default port of the recursor.... fuck!!!!!

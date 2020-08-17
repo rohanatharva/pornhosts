@@ -9,11 +9,15 @@
 # Set Some Variables
 # ******************
 
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
+
 yeartag=$(date +%Y)
 monthtag=$(date +%m)
 my_git_tag=V1.${yeartag}.${monthtag}.${TRAVIS_BUILD_NUMBER}
-total_sites=$(wc -l < "${TRAVIS_BUILD_DIR}/PULL_REQUESTS/domains.txt")
-active_sites=$(cat "${TRAVIS_BUILD_DIR}/dev-tools/output/logs/percentage/percentage.txt")
+total_sites=$(wc -l < "${git_dir}/PULL_REQUESTS/domains.txt")
+active_sites=$(cat "${git_dir}/dev-tools/output/logs/percentage/percentage.txt")
 
 # **********************************
 # Temporary database files we create
@@ -52,7 +56,7 @@ rm ${inputdbA}
 makelogo () {
     # First disable the new ImageMagick-6 Policy file which pretty much breaks all operations of ImageMagick even for SUDO ??? Stupidest thing ever !!!
     sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout
-    sudo convert "${TRAVIS_BUILD_DIR}/.assets/badd-boyz-logo-original.jpg" -font DejaVu-Sans-Bold -pointsize 20 -fill red -gravity southeast -annotate +60+70 "${my_git_tag}" "${TRAVIS_BUILD_DIR}/.assets/badd-boyz-hosts-logo.jpg"
+    sudo convert "${git_dir}/.assets/badd-boyz-logo-original.jpg" -font DejaVu-Sans-Bold -pointsize 20 -fill red -gravity southeast -annotate +60+70 "${my_git_tag}" "${git_dir}/.assets/badd-boyz-hosts-logo.jpg"
 }
 #makelogo
 

@@ -13,18 +13,11 @@
 # Please forward any additions, corrections or comments by logging an
 # issue at https://github.com/mypdns/matrix/issues
 
-pushd . > /dev/null
-SCRIPT_PATH="${BASH_SOURCE[0]}";
-if ([ -h "${SCRIPT_PATH}" ]) then
-  while([ -h "${SCRIPT_PATH}" ]) do cd $(dirname "$SCRIPT_PATH"); SCRIPT_PATH=$(readlink "${SCRIPT_PATH}"); done
-fi
-cd $(dirname "${SCRIPT_PATH}".) > /dev/null
-SCRIPT_PATH=$(pwd);
-popd  > /dev/null
+# As the TRAVIS_BUILD_DIR no longer seems to be working. I'm changing
+# that to git_dir
+git_dir="$(git rev-parse --show-toplevel)"
 
-ROOT_DIR="$(dirname "$SCRIPT_PATH")"
-
-export TRAVIS_BUILD_DIR="${ROOT_DIR}"
+export TRAVIS_BUILD_DIR="${git_dir}"
 
 cd "${SCRIPT_PATH}"
 
@@ -58,13 +51,13 @@ cd "${SCRIPT_PATH}"
 # Setup input bots and referrer lists
 # ***********************************
 
-input="${ROOT_DIR}/submit_here/hosts.txt"
-snuff="${ROOT_DIR}/submit_here/snuff.txt"
-testfile="${ROOT_DIR}/PULL_REQUESTS/domains.txt"
+input="${git_dir}/submit_here/hosts.txt"
+snuff="${git_dir}/submit_here/snuff.txt"
+testfile="${git_dir}/PULL_REQUESTS/domains.txt"
 
 # This should be replaced by a local whitelist
 
-#whitelist="$(wget -qO ${ROOT_DIR}/whitelist 'https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/whitelist/domain.list' > ${ROOT_DIR}/whitelist && wget -qO- 'https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/whitelist/wildcard.list' >> ${ROOT_DIR}/whitelist )"
+#whitelist="$(wget -qO ${git_dir}/whitelist 'https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/whitelist/domain.list' > ${git_dir}/whitelist && wget -qO- 'https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/whitelist/wildcard.list' >> ${git_dir}/whitelist )"
 
 # **************************************************************************
 # Sort lists alphabetically and remove duplicates before cleaning Dead Hosts
@@ -72,7 +65,7 @@ testfile="${ROOT_DIR}/PULL_REQUESTS/domains.txt"
 
 PrepareLists () {
 
-  mkdir -p "${ROOT_DIR}/PULL_REQUESTS/"
+  mkdir -p "${git_dir}/PULL_REQUESTS/"
 
   sort -u -f "${input}" -o "${input}"
   sort -u -f "${snuff}" -o "${snuff}"
@@ -130,13 +123,13 @@ head "${SCRIPT_PATH}/output/domains/ACTIVE/list"
 
 if [ -f "${SCRIPT_PATH}/output/domains/INACTIVE/list" ]
 then
-  grep -Ev "^($|#)" "${SCRIPT_PATH}/output/domains/INACTIVE/list" > "${ROOT_DIR}/submit_here/apparently_inactive.txt"
+  grep -Ev "^($|#)" "${SCRIPT_PATH}/output/domains/INACTIVE/list" > "${git_dir}/submit_here/apparently_inactive.txt"
 fi
 
 #if [ -f "${SCRIPT_PATH}/output/domains/ACTIVE/list" ]
 #then
-#  mkdir -p "${ROOT_DIR}/0.0.0.0/"
-#  awk '/^(#|$)/{ next }; { printf("0.0.0.0\t%s\n",tolower($1)) }' "${SCRIPT_PATH}/output/domains/ACTIVE/list" > "${ROOT_DIR}/0.0.0.0/hosts"
+#  mkdir -p "${git_dir}/0.0.0.0/"
+#  awk '/^(#|$)/{ next }; { printf("0.0.0.0\t%s\n",tolower($1)) }' "${SCRIPT_PATH}/output/domains/ACTIVE/list" > "${git_dir}/0.0.0.0/hosts"
 #fi
 
 # Testing the Real script
@@ -145,6 +138,6 @@ then
   bash "${SCRIPT_PATH}/GenerateHostsFile.sh"
 fi
 
-printf "${ROOT_DIR}\n"
+printf "${git_dir}\n"
 
 #head "${input}"
