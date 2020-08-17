@@ -5,10 +5,10 @@
             "hash": "50166c9e931fd62998e6a424004c326f853c954174b61197a9e8d20f"
         },
         "latest": {
-            "datetime_iso": "2020-08-17T16:26:19.599315",
+            "datetime_iso": "2020-08-17T16:46:05.436123",
             "hash": "50166c9e931fd62998e6a424004c326f853c954174b61197a9e8d20f"
         },
-        "position": 195841
+        "position": 0
     },
     "/home/travis/build/Import-External-Sources/pornhosts/dev-tools/debug.list": {
         "base": {
