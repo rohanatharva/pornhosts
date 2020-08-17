@@ -9,5 +9,16 @@
             "hash": "50166c9e931fd62998e6a424004c326f853c954174b61197a9e8d20f"
         },
         "position": 0
+    },
+    "/home/travis/build/Import-External-Sources/pornhosts/dev-tools/debug.list": {
+        "base": {
+            "datetime_iso": "2020-08-17T13:32:07.494141",
+            "hash": "a53323347a2a99e54f30cce6860f1ff144e1586f1ad96df132caee6c"
+        },
+        "latest": {
+            "datetime_iso": "2020-08-17T13:32:07.494141",
+            "hash": "a53323347a2a99e54f30cce6860f1ff144e1586f1ad96df132caee6c"
+        },
+        "position": 0
     }
 }
