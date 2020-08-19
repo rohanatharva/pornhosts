@@ -1,5 +1,5 @@
-# Last Updated: 2020-08-18 03:09:30 +0000 (UTC) Build: build: 3763
-# Porn Hosts Count: 10391
+# Last Updated: 2020-08-19 19:56:24 +0000 (UTC) Build: build: 3772
+# Porn Hosts Count: 10501
 #
 # Clefspeare13 pornhostss
 # This is a custom hosts file with all the porn sites I could find.
@@ -275,8 +275,8 @@ fe80::1%lo0 localhost
 # Requires IPv6
 #2606:4700::6812:5261 pixabay.com
 #2606:4700::6812:8d57 pixabay.com
+0.0.0.0 camsplus.xyz
 0.0.0.0 00webcams.com
-0.0.0.0 037jav.com
 0.0.0.0 animalporn.asia
 0.0.0.0 yespornplease.adult
 0.0.0.0 readhent.ai
@@ -604,8 +604,8 @@ fe80::1%lo0 localhost
 0.0.0.0 picture4.18stream.com
 0.0.0.0 picture5.18stream.com
 0.0.0.0 18teenboysex.com
-0.0.0.0 18-teenporn.com
 0.0.0.0 18-teen-porn.com
+0.0.0.0 18-teenporn.com
 0.0.0.0 18teenpornpics.com
 0.0.0.0 18-teen-sex.com
 0.0.0.0 18teenslut.com
@@ -680,6 +680,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.acompanhantesmadeira.com
 0.0.0.0 www.acompanhantez.com
 0.0.0.0 recruits.actiongirls.com
+0.0.0.0 actionjav.com
+0.0.0.0 images.actionjav.com
 0.0.0.0 adamandeve.com
 0.0.0.0 www.adamandeve.com
 0.0.0.0 adameve.com
@@ -716,6 +718,12 @@ fe80::1%lo0 localhost
 0.0.0.0 adultdvdempire.com
 0.0.0.0 adultdvdhits.com
 0.0.0.0 www.adultdvdhits.com
+0.0.0.0 galleries1.adult-empire.com
+0.0.0.0 galleries2.adult-empire.com
+0.0.0.0 pbs-0.adult-empire.com
+0.0.0.0 pbs-1.adult-empire.com
+0.0.0.0 pbs-2.adult-empire.com
+0.0.0.0 www.adult-empire.com
 0.0.0.0 adulteroticastories.com
 0.0.0.0 adult-extreme.com
 0.0.0.0 www.adult-extreme.com
@@ -744,6 +752,9 @@ fe80::1%lo0 localhost
 0.0.0.0 adulthostedblogs.com
 0.0.0.0 www.adulthostedblogs.com
 0.0.0.0 adultinc.com
+0.0.0.0 adultium.com
+0.0.0.0 stat.adultium.com
+0.0.0.0 www.adultium.com
 0.0.0.0 adultlinkexchange.com
 0.0.0.0 www.adultlinkexchange.com
 0.0.0.0 adultmoneymakers.com
@@ -1019,6 +1030,7 @@ fe80::1%lo0 localhost
 0.0.0.0 free-4.analzmovies.com
 0.0.0.0 www.analzmovies.com
 0.0.0.0 analzoom.com
+0.0.0.0 ancensored.com
 0.0.0.0 angel4christyb.com
 0.0.0.0 angelaandrews.com
 0.0.0.0 www.angelaandrews.com
@@ -1263,9 +1275,13 @@ fe80::1%lo0 localhost
 0.0.0.0 www.asambleabenidorm2019.com
 0.0.0.0 asciipr0n.com
 0.0.0.0 www.asciipr0n.com
+0.0.0.0 asexon.com
+0.0.0.0 www.asexon.com
 0.0.0.0 asexstories.com
 0.0.0.0 ads.asexstories.com
 0.0.0.0 asexyblonde.com
+0.0.0.0 cdn.asexyblonde.com
+0.0.0.0 www.asexyblonde.com
 0.0.0.0 ashemaletube.com
 0.0.0.0 www.ashemaletube.com
 0.0.0.0 ashemaletv.com
@@ -1276,6 +1292,9 @@ fe80::1%lo0 localhost
 0.0.0.0 www.asiablue.com
 0.0.0.0 adserver.asiafriendfinder.com
 0.0.0.0 banners.asiafriendfinder.com
+0.0.0.0 asiamoviepass.com
+0.0.0.0 images.asiamoviepass.com
+0.0.0.0 www.asiamoviepass.com
 0.0.0.0 asian2tube.com
 0.0.0.0 asian18tube.com
 0.0.0.0 asianasssex.com
@@ -1325,6 +1344,7 @@ fe80::1%lo0 localhost
 0.0.0.0 asiansexgfs.com
 0.0.0.0 asiansgoporn.com
 0.0.0.0 asiansister.com
+0.0.0.0 asianstreetmeat.com
 0.0.0.0 www.asiantubesex.com
 0.0.0.0 asiantubeteen.com
 0.0.0.0 asianxtv.com
@@ -1374,8 +1394,12 @@ fe80::1%lo0 localhost
 0.0.0.0 www.avadevine.com
 0.0.0.0 avatarcash.com
 0.0.0.0 www.avatarcash.com
+0.0.0.0 avcrempie.com
 0.0.0.0 averagenudes.com
 0.0.0.0 averoticamodels.com
+0.0.0.0 avfay.com
+0.0.0.0 p1.avfay.com
+0.0.0.0 www.avfay.com
 0.0.0.0 avforme.com
 0.0.0.0 avgle.com
 0.0.0.0 avidolsex.com
@@ -1387,6 +1411,9 @@ fe80::1%lo0 localhost
 0.0.0.0 avsoeasy.com
 0.0.0.0 enter.avtits.com
 0.0.0.0 av-uncen.com
+0.0.0.0 avwend.com
+0.0.0.0 img.avwend.com
+0.0.0.0 www.avwend.com
 0.0.0.0 awejmp.com
 0.0.0.0 awempire.com
 0.0.0.0 www.awempire.com
@@ -1418,6 +1445,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.b44.com
 0.0.0.0 babedump.com
 0.0.0.0 www.babedump.com
+0.0.0.0 babeglam.com
+0.0.0.0 www.babeglam.com
 0.0.0.0 babehub.com
 0.0.0.0 www.babe-lounge.com
 0.0.0.0 www.babepedia.com
@@ -1432,6 +1461,9 @@ fe80::1%lo0 localhost
 0.0.0.0 www.babesmachine.com
 0.0.0.0 enter.babesnetwork.com
 0.0.0.0 www.babesnetwork.com
+0.0.0.0 babesoftwistys.com
+0.0.0.0 cdn.babesoftwistys.com
+0.0.0.0 www.babesoftwistys.com
 0.0.0.0 babesource.com
 0.0.0.0 www.babesource.com
 0.0.0.0 babespros.com
@@ -1530,6 +1562,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.beachtoplist.com
 0.0.0.0 beastysexlinks.com
 0.0.0.0 beastythumbs.com
+0.0.0.0 beautiful-bodies.com
+0.0.0.0 www.beautiful-bodies.com
 0.0.0.0 beautifulhairypussy.com
 0.0.0.0 beautifulteensex.com
 0.0.0.0 beauty4k.com
@@ -2011,6 +2045,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.carmenvalentina.com
 0.0.0.0 cartoon-3x.com
 0.0.0.0 www.cartoon-3x.com
+0.0.0.0 cartoonmodern.com
+0.0.0.0 www.cartoonmodern.com
 0.0.0.0 cartoonpornguide.com
 0.0.0.0 www.free.cartoonpornguide.com
 0.0.0.0 www.cartoonpornguide.com
@@ -2138,6 +2174,7 @@ fe80::1%lo0 localhost
 0.0.0.0 banners.chicashumedas.com
 0.0.0.0 www.banners.chicashumedas.com
 0.0.0.0 www.chicashumedas.com
+0.0.0.0 www.chicasperu.com
 0.0.0.0 www1.chickenhost.com
 0.0.0.0 www2.chickenhost.com
 0.0.0.0 www3.chickenhost.com
@@ -2288,6 +2325,9 @@ fe80::1%lo0 localhost
 0.0.0.0 www.static.ads.crakmedia.com
 0.0.0.0 www.crakmedia.com
 0.0.0.0 affiliates.crakrevenue.com
+0.0.0.0 cravebabes.com
+0.0.0.0 cdn.cravebabes.com
+0.0.0.0 www.cravebabes.com
 0.0.0.0 www.crazyasiangfs.com
 0.0.0.0 crazyasianshemales.com
 0.0.0.0 www.crazycollegegfs.com
@@ -2479,6 +2519,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.delitraff.com
 0.0.0.0 www.deluxebabes.com
 0.0.0.0 deluxeblondes.com
+0.0.0.0 cdn.deluxeblondes.com
+0.0.0.0 www.deluxeblondes.com
 0.0.0.0 abl-angels.deluxepass.com
 0.0.0.0 www.members.abl-angels.deluxepass.com
 0.0.0.0 www.abl-angels.deluxepass.com
@@ -2500,8 +2542,11 @@ fe80::1%lo0 localhost
 0.0.0.0 www.desipapa.com
 0.0.0.0 desipornfilm.com
 0.0.0.0 desiredbabes.com
+0.0.0.0 cdn.desiredbabes.com
+0.0.0.0 www.desiredbabes.com
 0.0.0.0 desiunseen.com
 0.0.0.0 desivdo.com
+0.0.0.0 desklks.com
 0.0.0.0 deviantclip.com
 0.0.0.0 www.deviantclip.com
 0.0.0.0 www.devicebondage.com
@@ -2522,6 +2567,8 @@ fe80::1%lo0 localhost
 0.0.0.0 didilist.com
 0.0.0.0 digitalangelblog.com
 0.0.0.0 digitalbeautybabes.com
+0.0.0.0 cdn.digitalbeautybabes.com
+0.0.0.0 www.digitalbeautybabes.com
 0.0.0.0 digitaldesire.com
 0.0.0.0 fhg.digitaldesire.com
 0.0.0.0 www.digitaldesire.com
@@ -2737,6 +2784,8 @@ fe80::1%lo0 localhost
 0.0.0.0 eonline.com
 0.0.0.0 www.eonline.com
 0.0.0.0 epicbikini.com
+0.0.0.0 cdn.epicbikini.com
+0.0.0.0 www.epicbikini.com
 0.0.0.0 epicomg.com
 0.0.0.0 epikporn.com
 0.0.0.0 eporner.com
@@ -2748,8 +2797,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.erinvirgin.com
 0.0.0.0 enter.erito.com
 0.0.0.0 enter.eritoavstars.com
-0.0.0.0 eroadvertising.com
 0.0.0.0 ero-advertising.com
+0.0.0.0 eroadvertising.com
 0.0.0.0 ads.ero-advertising.com
 0.0.0.0 ads2.ero-advertising.com
 0.0.0.0 www.ads2.ero-advertising.com
@@ -2761,14 +2810,14 @@ fe80::1%lo0 localhost
 0.0.0.0 www.apo.ero-advertising.com
 0.0.0.0 askjolene.ero-advertising.com
 0.0.0.0 www.askjolene.ero-advertising.com
-0.0.0.0 banners.ero-advertising.com
 0.0.0.0 banners.eroadvertising.com
+0.0.0.0 banners.ero-advertising.com
 0.0.0.0 banners2.ero-advertising.com
 0.0.0.0 banners2.eroadvertising.com
-0.0.0.0 www.banners2.ero-advertising.com
 0.0.0.0 www.banners2.eroadvertising.com
-0.0.0.0 www.banners.eroadvertising.com
+0.0.0.0 www.banners2.ero-advertising.com
 0.0.0.0 www.banners.ero-advertising.com
+0.0.0.0 www.banners.eroadvertising.com
 0.0.0.0 www.imads.ero-advertising.com
 0.0.0.0 www.invideo.ero-advertising.com
 0.0.0.0 www.js.ero-advertising.com
@@ -2810,6 +2859,13 @@ fe80::1%lo0 localhost
 0.0.0.0 www.erotica7.com
 0.0.0.0 eroticahunter.com
 0.0.0.0 eroticandbeauty.com
+0.0.0.0 eroticartimages.com
+0.0.0.0 cdn1.eroticartimages.com
+0.0.0.0 cdn2.eroticartimages.com
+0.0.0.0 cdn3.eroticartimages.com
+0.0.0.0 cdn4.eroticartimages.com
+0.0.0.0 cdn5.eroticartimages.com
+0.0.0.0 www.eroticartimages.com
 0.0.0.0 fhg.eroticbeauty.com
 0.0.0.0 erotic-blog.com
 0.0.0.0 www.erotic-blog.com
@@ -2817,6 +2873,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.eroticgirlpics.com
 0.0.0.0 eroticgirlpictures.com
 0.0.0.0 erotichdworld.com
+0.0.0.0 eroticperfection.com
+0.0.0.0 www.eroticperfection.com
 0.0.0.0 eroticproviderguide.com
 0.0.0.0 eroticpussylab.com
 0.0.0.0 eroticscribes.com
@@ -2963,7 +3021,6 @@ fe80::1%lo0 localhost
 0.0.0.0 www.fakethebitch.com
 0.0.0.0 falconstudios.com
 0.0.0.0 fallenangelproductions.com
-0.0.0.0 www.fallenangelproductions.com
 0.0.0.0 fallenangelvideo.com
 0.0.0.0 www.fallenangelvideo.com
 0.0.0.0 www.familystrokes.com
@@ -3445,6 +3502,7 @@ fe80::1%lo0 localhost
 0.0.0.0 givemeyoung.com
 0.0.0.0 www.glamourmodelsdirectory.com
 0.0.0.0 glamourwebcams.com
+0.0.0.0 glxgroup.com
 0.0.0.0 www.glxgroup.com
 0.0.0.0 gndavery.com
 0.0.0.0 gndcali.com
@@ -3761,7 +3819,6 @@ fe80::1%lo0 localhost
 0.0.0.0 www.hotfreewebcams.com
 0.0.0.0 www.hotgirlcentral.com
 0.0.0.0 hotgirlies4u.com
-0.0.0.0 www.hotgirlies4u.com
 0.0.0.0 hotgirlsboard.com
 0.0.0.0 www.hotgirlsboard.com
 0.0.0.0 hothomemade.com
@@ -3870,6 +3927,9 @@ fe80::1%lo0 localhost
 0.0.0.0 v4.idealgasm.com
 0.0.0.0 www.idealgasm.com
 0.0.0.0 ideal-teens.com
+0.0.0.0 babes.ideal-teens.com
+0.0.0.0 cdn.ideal-teens.com
+0.0.0.0 www.ideal-teens.com
 0.0.0.0 ifl-porn.com
 0.0.0.0 ifuckxxx.com
 0.0.0.0 cdn1.ifuckxxx.com
@@ -3952,6 +4012,7 @@ fe80::1%lo0 localhost
 0.0.0.0 isitmymom.com
 0.0.0.0 www.isitmymom.com
 0.0.0.0 www.islivewebcams.com
+0.0.0.0 clicks.istripper.com
 0.0.0.0 www.istripper.com
 0.0.0.0 www.ithinkthatshot.com
 0.0.0.0 itinyteens.com
@@ -4162,6 +4223,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.ladyboyweb.com
 0.0.0.0 ladygranny.com
 0.0.0.0 www.ladylust.com
+0.0.0.0 ladytoons.com
+0.0.0.0 www.ladytoons.com
 0.0.0.0 www.laineygossip.com
 0.0.0.0 landofvenus.com
 0.0.0.0 join.landofvenus.com
@@ -5679,8 +5742,8 @@ fe80::1%lo0 localhost
 0.0.0.0 prettyindiaporn.com
 0.0.0.0 prettypetites.com
 0.0.0.0 www.prettypetites.com
-0.0.0.0 www.prettyvirgins.com
 0.0.0.0 www.pretty-virgins.com
+0.0.0.0 www.prettyvirgins.com
 0.0.0.0 www.primecups.com
 0.0.0.0 www.primecurves.com
 0.0.0.0 www.primehentai.com
@@ -6138,6 +6201,13 @@ fe80::1%lo0 localhost
 0.0.0.0 www.sextails.com
 0.0.0.0 www.sextapelesbians.com
 0.0.0.0 www.sexteenageporn.com
+0.0.0.0 sextgem.com
+0.0.0.0 cutelatinas.sextgem.com
+0.0.0.0 mhot.sextgem.com
+0.0.0.0 porn-mobile.sextgem.com
+0.0.0.0 xinh9xvn.sextgem.com
+0.0.0.0 sextoonscomics.com
+0.0.0.0 www.sextoonscomics.com
 0.0.0.0 banners.sextracker.com
 0.0.0.0 cbird.sextracker.com
 0.0.0.0 counter1.sextracker.com
@@ -6452,6 +6522,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.skypecam.streamray.com
 0.0.0.0 www.streamsex.com
 0.0.0.0 www.streetblowjobs.com
+0.0.0.0 streetmeatasia.com
+0.0.0.0 cdn.streetmeatasia.com
 0.0.0.0 www.stripchat.com
 0.0.0.0 cdn.stripst.com
 0.0.0.0 img.stripst.com
@@ -7554,7 +7626,13 @@ fe80::1%lo0 localhost
 0.0.0.0 www.virginsvids.com
 0.0.0.0 www.virgintemple.com
 0.0.0.0 www.virginx.com
+0.0.0.0 banners.virtuagirlhd.com
+0.0.0.0 cards.virtuagirlhd.com
+0.0.0.0 cbanners.virtuagirlhd.com
+0.0.0.0 clicks.virtuagirlhd.com
+0.0.0.0 datas.virtuagirlhd.com
 0.0.0.0 www.virtuagirlhd.com
+0.0.0.0 www75.virtuagirlhd.com
 0.0.0.0 www.virtualporn360.com
 0.0.0.0 www.virtualporndesire.com
 0.0.0.0 virtualpornfan.com
@@ -8341,8 +8419,6 @@ fe80::1%lo0 localhost
 0.0.0.0 angelina-and-friends.eu
 0.0.0.0 www.angelina-and-friends.eu
 0.0.0.0 camjuice.eu
-0.0.0.0 cyprosoft.eu
-0.0.0.0 www.cyprosoft.eu
 0.0.0.0 www.dreambabes.eu
 0.0.0.0 fastpics.eu
 0.0.0.0 www.fastpics.eu
@@ -8481,6 +8557,7 @@ fe80::1%lo0 localhost
 0.0.0.0 grannypics.info
 0.0.0.0 greatgirls.info
 0.0.0.0 www.greatgirls.info
+0.0.0.0 ifp-plus.info
 0.0.0.0 mca4climate.info
 0.0.0.0 www.merryangels.info
 0.0.0.0 mipr.info
@@ -8517,6 +8594,7 @@ fe80::1%lo0 localhost
 0.0.0.0 redtube.ink
 0.0.0.0 asianpornpics.io
 0.0.0.0 erotiv.io
+0.0.0.0 exl.io
 0.0.0.0 yspmedia.gitlab.io
 0.0.0.0 pornv.io
 0.0.0.0 pururin.io
@@ -8588,6 +8666,7 @@ fe80::1%lo0 localhost
 0.0.0.0 asianporno.me
 0.0.0.0 asianpussypic.me
 0.0.0.0 www.asianpussypic.me
+0.0.0.0 avli.me
 0.0.0.0 celebsdaddy.me
 0.0.0.0 cheggit.me
 0.0.0.0 www.cheggit.me
@@ -8762,6 +8841,7 @@ fe80::1%lo0 localhost
 0.0.0.0 www.apornotube.net
 0.0.0.0 arabs3x.net
 0.0.0.0 asian3x.net
+0.0.0.0 asianscandal.net
 0.0.0.0 asiansfuck.net
 0.0.0.0 asianteengirls.net
 0.0.0.0 www.asianteengirls.net
@@ -8802,6 +8882,7 @@ fe80::1%lo0 localhost
 0.0.0.0 bigbootytube.net
 0.0.0.0 bigmatureass.net
 0.0.0.0 bigsexvideos.net
+0.0.0.0 www.bikiniriot.net
 0.0.0.0 bitcheese.net
 0.0.0.0 bondagepictures.net
 0.0.0.0 bondage-porno.net
@@ -8829,6 +8910,7 @@ fe80::1%lo0 localhost
 0.0.0.0 www.angeliberty.centerblog.net
 0.0.0.0 ceporn.net
 0.0.0.0 changels.net
+0.0.0.0 www.changels.net
 0.0.0.0 charming-angels.net
 0.0.0.0 www.charming-angels.net
 0.0.0.0 chunkytgp.net
@@ -8850,8 +8932,14 @@ fe80::1%lo0 localhost
 0.0.0.0 cougar-rencontre.net
 0.0.0.0 www.cougar-rencontre.net
 0.0.0.0 crackbabes.net
+0.0.0.0 crazyteens.net
+0.0.0.0 hs1.crazyteens.net
+0.0.0.0 www.crazyteens.net
 0.0.0.0 cumswap.net
 0.0.0.0 www.cumswap.net
+0.0.0.0 cute-babes.net
+0.0.0.0 cdn.cute-babes.net
+0.0.0.0 www.cute-babes.net
 0.0.0.0 cutenudeteens.net
 0.0.0.0 www.cute-virgins.net
 0.0.0.0 www.czechhd.net
@@ -8885,6 +8973,13 @@ fe80::1%lo0 localhost
 0.0.0.0 www.advertising.entensity.net
 0.0.0.0 www.entensity.net
 0.0.0.0 eroslist.net
+0.0.0.0 eroticapic.net
+0.0.0.0 cdn1.eroticapic.net
+0.0.0.0 cdn2.eroticapic.net
+0.0.0.0 cdn3.eroticapic.net
+0.0.0.0 cdn4.eroticapic.net
+0.0.0.0 cdn5.eroticapic.net
+0.0.0.0 www.eroticapic.net
 0.0.0.0 eroticareview.net
 0.0.0.0 www.eroticast.net
 0.0.0.0 eroticbeauties.net
@@ -8918,7 +9013,6 @@ fe80::1%lo0 localhost
 0.0.0.0 www.angelinajolie.forumfree.net
 0.0.0.0 angelsofblood.forumfree.net
 0.0.0.0 www.angelsofblood.forumfree.net
-0.0.0.0 angelsofuniverse.forumfree.net
 0.0.0.0 www.angelsofuniverse.forumfree.net
 0.0.0.0 www.free18.net
 0.0.0.0 free-girls.net
@@ -9260,6 +9354,8 @@ fe80::1%lo0 localhost
 0.0.0.0 www.sexyads.net
 0.0.0.0 sexydirtygirl.net
 0.0.0.0 www.sexydirtygirl.net
+0.0.0.0 sexympegs.net
+0.0.0.0 www.sexympegs.net
 0.0.0.0 sexy-photos.net
 0.0.0.0 sexyteenphotos.net
 0.0.0.0 sgirls.net
@@ -9333,8 +9429,8 @@ fe80::1%lo0 localhost
 0.0.0.0 urbanamateurs.net
 0.0.0.0 www.urlgalleries.net
 0.0.0.0 gs1.wac.v5cdn.net
-0.0.0.0 www.veporn.net
 0.0.0.0 www.ve-porn.net
+0.0.0.0 www.veporn.net
 0.0.0.0 vintagefetish.net
 0.0.0.0 www.vintagefetish.net
 0.0.0.0 www.vintagepinupgirls.net
@@ -10035,6 +10131,9 @@ fe80::1%lo0 localhost
 0.0.0.0 rosemaryevanscam.blogspot.ro
 0.0.0.0 eroshow.ro
 0.0.0.0 www.topsiteuri.ro
+0.0.0.0 bigboobs.rocks
+0.0.0.0 cdn.bigboobs.rocks
+0.0.0.0 www.bigboobs.rocks
 0.0.0.0 nakedgirls.rocks
 0.0.0.0 nakedteens.rocks
 0.0.0.0 www.pornotube.rs
@@ -10074,6 +10173,9 @@ fe80::1%lo0 localhost
 0.0.0.0 www.tube18.sex
 0.0.0.0 watchmygf.sex
 0.0.0.0 xxnx.sex
+0.0.0.0 allnude.sexy
+0.0.0.0 cdn.allnude.sexy
+0.0.0.0 www.allnude.sexy
 0.0.0.0 amateursex.sexy
 0.0.0.0 www.amateursex.sexy
 0.0.0.0 analwithteens.sexy
@@ -10084,6 +10186,9 @@ fe80::1%lo0 localhost
 0.0.0.0 deep5.analwithteens.sexy
 0.0.0.0 www.analwithteens.sexy
 0.0.0.0 www.asianporn.sexy
+0.0.0.0 bustyblondes.sexy
+0.0.0.0 cdn.bustyblondes.sexy
+0.0.0.0 www.bustyblondes.sexy
 0.0.0.0 ebonygirls.sexy
 0.0.0.0 girlspussy.sexy
 0.0.0.0 cdn.girlspussy.sexy
@@ -10209,6 +10314,8 @@ fe80::1%lo0 localhost
 0.0.0.0 animalsex-top.top
 0.0.0.0 animals-sperm.top
 0.0.0.0 animalxnxx.top
+0.0.0.0 avair.top
+0.0.0.0 www.avair.top
 0.0.0.0 bestlist.top
 0.0.0.0 chineseporn.top
 0.0.0.0 www.chineseporn.top
@@ -10228,6 +10335,7 @@ fe80::1%lo0 localhost
 0.0.0.0 zoohentai.top
 0.0.0.0 www.zoohentai.top
 0.0.0.0 asianporn.tube
+0.0.0.0 detentiongirls.tube
 0.0.0.0 www.e-hentai.tube
 0.0.0.0 milfporn.tube
 0.0.0.0 vintageporn.tube
@@ -10383,8 +10491,8 @@ fe80::1%lo0 localhost
 0.0.0.0 angelsofthenight.co.uk
 0.0.0.0 www.angelsofthenight.co.uk
 0.0.0.0 annas-angels.co.uk
-0.0.0.0 www.annasangels.co.uk
 0.0.0.0 www.annas-angels.co.uk
+0.0.0.0 www.annasangels.co.uk
 0.0.0.0 bestpornsites.co.uk
 0.0.0.0 boobsandtits.co.uk
 0.0.0.0 www.girlsbcn.co.uk
@@ -10622,11 +10730,13 @@ fe80::1%lo0 localhost
 0.0.0.0 beachboobs.xyz
 0.0.0.0 bellaporn.xyz
 0.0.0.0 buby.xyz
+0.0.0.0 camsplus.xyz
 0.0.0.0 chudai.xyz
 0.0.0.0 clip31.xyz
 0.0.0.0 eroticmovies.xyz
 0.0.0.0 e-x.xyz
 0.0.0.0 t.e-x.xyz
+0.0.0.0 filthcams.xyz
 0.0.0.0 freeanimalporn.xyz
 0.0.0.0 www.freeanimalporn.xyz
 0.0.0.0 freegrannyporn.xyz

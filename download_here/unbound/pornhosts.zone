@@ -1,6 +1,6 @@
 {server:
-}local-zone: "00webcams.com" always_nxdomain
-local-zone: "037jav.com" always_nxdomain
+}local-zone: "camsplus.xyz" always_nxdomain
+local-zone: "00webcams.com" always_nxdomain
 local-zone: "animalporn.asia" always_nxdomain
 local-zone: "yespornplease.adult" always_nxdomain
 local-zone: "readhent.ai" always_nxdomain
@@ -328,8 +328,8 @@ local-zone: "picture1.18stream.com" always_nxdomain
 local-zone: "picture4.18stream.com" always_nxdomain
 local-zone: "picture5.18stream.com" always_nxdomain
 local-zone: "18teenboysex.com" always_nxdomain
-local-zone: "18-teenporn.com" always_nxdomain
 local-zone: "18-teen-porn.com" always_nxdomain
+local-zone: "18-teenporn.com" always_nxdomain
 local-zone: "18teenpornpics.com" always_nxdomain
 local-zone: "18-teen-sex.com" always_nxdomain
 local-zone: "18teenslut.com" always_nxdomain
@@ -404,6 +404,8 @@ local-zone: "www.acmexxx.com" always_nxdomain
 local-zone: "www.acompanhantesmadeira.com" always_nxdomain
 local-zone: "www.acompanhantez.com" always_nxdomain
 local-zone: "recruits.actiongirls.com" always_nxdomain
+local-zone: "actionjav.com" always_nxdomain
+local-zone: "images.actionjav.com" always_nxdomain
 local-zone: "adamandeve.com" always_nxdomain
 local-zone: "www.adamandeve.com" always_nxdomain
 local-zone: "adameve.com" always_nxdomain
@@ -440,6 +442,12 @@ local-zone: "www.adultdialersolution.com" always_nxdomain
 local-zone: "adultdvdempire.com" always_nxdomain
 local-zone: "adultdvdhits.com" always_nxdomain
 local-zone: "www.adultdvdhits.com" always_nxdomain
+local-zone: "galleries1.adult-empire.com" always_nxdomain
+local-zone: "galleries2.adult-empire.com" always_nxdomain
+local-zone: "pbs-0.adult-empire.com" always_nxdomain
+local-zone: "pbs-1.adult-empire.com" always_nxdomain
+local-zone: "pbs-2.adult-empire.com" always_nxdomain
+local-zone: "www.adult-empire.com" always_nxdomain
 local-zone: "adulteroticastories.com" always_nxdomain
 local-zone: "adult-extreme.com" always_nxdomain
 local-zone: "www.adult-extreme.com" always_nxdomain
@@ -468,6 +476,9 @@ local-zone: "adultgamestop.com" always_nxdomain
 local-zone: "adulthostedblogs.com" always_nxdomain
 local-zone: "www.adulthostedblogs.com" always_nxdomain
 local-zone: "adultinc.com" always_nxdomain
+local-zone: "adultium.com" always_nxdomain
+local-zone: "stat.adultium.com" always_nxdomain
+local-zone: "www.adultium.com" always_nxdomain
 local-zone: "adultlinkexchange.com" always_nxdomain
 local-zone: "www.adultlinkexchange.com" always_nxdomain
 local-zone: "adultmoneymakers.com" always_nxdomain
@@ -743,6 +754,7 @@ local-zone: "free-3.analzmovies.com" always_nxdomain
 local-zone: "free-4.analzmovies.com" always_nxdomain
 local-zone: "www.analzmovies.com" always_nxdomain
 local-zone: "analzoom.com" always_nxdomain
+local-zone: "ancensored.com" always_nxdomain
 local-zone: "angel4christyb.com" always_nxdomain
 local-zone: "angelaandrews.com" always_nxdomain
 local-zone: "www.angelaandrews.com" always_nxdomain
@@ -987,9 +999,13 @@ local-zone: "asambleabenidorm2019.com" always_nxdomain
 local-zone: "www.asambleabenidorm2019.com" always_nxdomain
 local-zone: "asciipr0n.com" always_nxdomain
 local-zone: "www.asciipr0n.com" always_nxdomain
+local-zone: "asexon.com" always_nxdomain
+local-zone: "www.asexon.com" always_nxdomain
 local-zone: "asexstories.com" always_nxdomain
 local-zone: "ads.asexstories.com" always_nxdomain
 local-zone: "asexyblonde.com" always_nxdomain
+local-zone: "cdn.asexyblonde.com" always_nxdomain
+local-zone: "www.asexyblonde.com" always_nxdomain
 local-zone: "ashemaletube.com" always_nxdomain
 local-zone: "www.ashemaletube.com" always_nxdomain
 local-zone: "ashemaletv.com" always_nxdomain
@@ -1000,6 +1016,9 @@ local-zone: "asiablue.com" always_nxdomain
 local-zone: "www.asiablue.com" always_nxdomain
 local-zone: "adserver.asiafriendfinder.com" always_nxdomain
 local-zone: "banners.asiafriendfinder.com" always_nxdomain
+local-zone: "asiamoviepass.com" always_nxdomain
+local-zone: "images.asiamoviepass.com" always_nxdomain
+local-zone: "www.asiamoviepass.com" always_nxdomain
 local-zone: "asian2tube.com" always_nxdomain
 local-zone: "asian18tube.com" always_nxdomain
 local-zone: "asianasssex.com" always_nxdomain
@@ -1049,6 +1068,7 @@ local-zone: "www.asiansexass.com" always_nxdomain
 local-zone: "asiansexgfs.com" always_nxdomain
 local-zone: "asiansgoporn.com" always_nxdomain
 local-zone: "asiansister.com" always_nxdomain
+local-zone: "asianstreetmeat.com" always_nxdomain
 local-zone: "www.asiantubesex.com" always_nxdomain
 local-zone: "asiantubeteen.com" always_nxdomain
 local-zone: "asianxtv.com" always_nxdomain
@@ -1098,8 +1118,12 @@ local-zone: "secure.avadevine.com" always_nxdomain
 local-zone: "www.avadevine.com" always_nxdomain
 local-zone: "avatarcash.com" always_nxdomain
 local-zone: "www.avatarcash.com" always_nxdomain
+local-zone: "avcrempie.com" always_nxdomain
 local-zone: "averagenudes.com" always_nxdomain
 local-zone: "averoticamodels.com" always_nxdomain
+local-zone: "avfay.com" always_nxdomain
+local-zone: "p1.avfay.com" always_nxdomain
+local-zone: "www.avfay.com" always_nxdomain
 local-zone: "avforme.com" always_nxdomain
 local-zone: "avgle.com" always_nxdomain
 local-zone: "avidolsex.com" always_nxdomain
@@ -1111,6 +1135,9 @@ local-zone: "www.avseesee.com" always_nxdomain
 local-zone: "avsoeasy.com" always_nxdomain
 local-zone: "enter.avtits.com" always_nxdomain
 local-zone: "av-uncen.com" always_nxdomain
+local-zone: "avwend.com" always_nxdomain
+local-zone: "img.avwend.com" always_nxdomain
+local-zone: "www.avwend.com" always_nxdomain
 local-zone: "awejmp.com" always_nxdomain
 local-zone: "awempire.com" always_nxdomain
 local-zone: "www.awempire.com" always_nxdomain
@@ -1142,6 +1169,8 @@ local-zone: "b44.com" always_nxdomain
 local-zone: "www.b44.com" always_nxdomain
 local-zone: "babedump.com" always_nxdomain
 local-zone: "www.babedump.com" always_nxdomain
+local-zone: "babeglam.com" always_nxdomain
+local-zone: "www.babeglam.com" always_nxdomain
 local-zone: "babehub.com" always_nxdomain
 local-zone: "www.babe-lounge.com" always_nxdomain
 local-zone: "www.babepedia.com" always_nxdomain
@@ -1156,6 +1185,9 @@ local-zone: "www.babesfirst.com" always_nxdomain
 local-zone: "www.babesmachine.com" always_nxdomain
 local-zone: "enter.babesnetwork.com" always_nxdomain
 local-zone: "www.babesnetwork.com" always_nxdomain
+local-zone: "babesoftwistys.com" always_nxdomain
+local-zone: "cdn.babesoftwistys.com" always_nxdomain
+local-zone: "www.babesoftwistys.com" always_nxdomain
 local-zone: "babesource.com" always_nxdomain
 local-zone: "www.babesource.com" always_nxdomain
 local-zone: "babespros.com" always_nxdomain
@@ -1254,6 +1286,8 @@ local-zone: "beachtoplist.com" always_nxdomain
 local-zone: "www.beachtoplist.com" always_nxdomain
 local-zone: "beastysexlinks.com" always_nxdomain
 local-zone: "beastythumbs.com" always_nxdomain
+local-zone: "beautiful-bodies.com" always_nxdomain
+local-zone: "www.beautiful-bodies.com" always_nxdomain
 local-zone: "beautifulhairypussy.com" always_nxdomain
 local-zone: "beautifulteensex.com" always_nxdomain
 local-zone: "beauty4k.com" always_nxdomain
@@ -1735,6 +1769,8 @@ local-zone: "carmenvalentina.com" always_nxdomain
 local-zone: "www.carmenvalentina.com" always_nxdomain
 local-zone: "cartoon-3x.com" always_nxdomain
 local-zone: "www.cartoon-3x.com" always_nxdomain
+local-zone: "cartoonmodern.com" always_nxdomain
+local-zone: "www.cartoonmodern.com" always_nxdomain
 local-zone: "cartoonpornguide.com" always_nxdomain
 local-zone: "www.free.cartoonpornguide.com" always_nxdomain
 local-zone: "www.cartoonpornguide.com" always_nxdomain
@@ -1862,6 +1898,7 @@ local-zone: "chicashumedas.com" always_nxdomain
 local-zone: "banners.chicashumedas.com" always_nxdomain
 local-zone: "www.banners.chicashumedas.com" always_nxdomain
 local-zone: "www.chicashumedas.com" always_nxdomain
+local-zone: "www.chicasperu.com" always_nxdomain
 local-zone: "www1.chickenhost.com" always_nxdomain
 local-zone: "www2.chickenhost.com" always_nxdomain
 local-zone: "www3.chickenhost.com" always_nxdomain
@@ -2012,6 +2049,9 @@ local-zone: "crakmedia.com" always_nxdomain
 local-zone: "www.static.ads.crakmedia.com" always_nxdomain
 local-zone: "www.crakmedia.com" always_nxdomain
 local-zone: "affiliates.crakrevenue.com" always_nxdomain
+local-zone: "cravebabes.com" always_nxdomain
+local-zone: "cdn.cravebabes.com" always_nxdomain
+local-zone: "www.cravebabes.com" always_nxdomain
 local-zone: "www.crazyasiangfs.com" always_nxdomain
 local-zone: "crazyasianshemales.com" always_nxdomain
 local-zone: "www.crazycollegegfs.com" always_nxdomain
@@ -2203,6 +2243,8 @@ local-zone: "delitraff.com" always_nxdomain
 local-zone: "www.delitraff.com" always_nxdomain
 local-zone: "www.deluxebabes.com" always_nxdomain
 local-zone: "deluxeblondes.com" always_nxdomain
+local-zone: "cdn.deluxeblondes.com" always_nxdomain
+local-zone: "www.deluxeblondes.com" always_nxdomain
 local-zone: "abl-angels.deluxepass.com" always_nxdomain
 local-zone: "www.members.abl-angels.deluxepass.com" always_nxdomain
 local-zone: "www.abl-angels.deluxepass.com" always_nxdomain
@@ -2224,8 +2266,11 @@ local-zone: "www.desipapa2.com" always_nxdomain
 local-zone: "www.desipapa.com" always_nxdomain
 local-zone: "desipornfilm.com" always_nxdomain
 local-zone: "desiredbabes.com" always_nxdomain
+local-zone: "cdn.desiredbabes.com" always_nxdomain
+local-zone: "www.desiredbabes.com" always_nxdomain
 local-zone: "desiunseen.com" always_nxdomain
 local-zone: "desivdo.com" always_nxdomain
+local-zone: "desklks.com" always_nxdomain
 local-zone: "deviantclip.com" always_nxdomain
 local-zone: "www.deviantclip.com" always_nxdomain
 local-zone: "www.devicebondage.com" always_nxdomain
@@ -2246,6 +2291,8 @@ local-zone: "www.dicktricks.com" always_nxdomain
 local-zone: "didilist.com" always_nxdomain
 local-zone: "digitalangelblog.com" always_nxdomain
 local-zone: "digitalbeautybabes.com" always_nxdomain
+local-zone: "cdn.digitalbeautybabes.com" always_nxdomain
+local-zone: "www.digitalbeautybabes.com" always_nxdomain
 local-zone: "digitaldesire.com" always_nxdomain
 local-zone: "fhg.digitaldesire.com" always_nxdomain
 local-zone: "www.digitaldesire.com" always_nxdomain
@@ -2461,6 +2508,8 @@ local-zone: "wum97myjdw.ent-cdn.com" always_nxdomain
 local-zone: "eonline.com" always_nxdomain
 local-zone: "www.eonline.com" always_nxdomain
 local-zone: "epicbikini.com" always_nxdomain
+local-zone: "cdn.epicbikini.com" always_nxdomain
+local-zone: "www.epicbikini.com" always_nxdomain
 local-zone: "epicomg.com" always_nxdomain
 local-zone: "epikporn.com" always_nxdomain
 local-zone: "eporner.com" always_nxdomain
@@ -2472,8 +2521,8 @@ local-zone: "erinvirgin.com" always_nxdomain
 local-zone: "www.erinvirgin.com" always_nxdomain
 local-zone: "enter.erito.com" always_nxdomain
 local-zone: "enter.eritoavstars.com" always_nxdomain
-local-zone: "eroadvertising.com" always_nxdomain
 local-zone: "ero-advertising.com" always_nxdomain
+local-zone: "eroadvertising.com" always_nxdomain
 local-zone: "ads.ero-advertising.com" always_nxdomain
 local-zone: "ads2.ero-advertising.com" always_nxdomain
 local-zone: "www.ads2.ero-advertising.com" always_nxdomain
@@ -2485,14 +2534,14 @@ local-zone: "apo.ero-advertising.com" always_nxdomain
 local-zone: "www.apo.ero-advertising.com" always_nxdomain
 local-zone: "askjolene.ero-advertising.com" always_nxdomain
 local-zone: "www.askjolene.ero-advertising.com" always_nxdomain
-local-zone: "banners.ero-advertising.com" always_nxdomain
 local-zone: "banners.eroadvertising.com" always_nxdomain
+local-zone: "banners.ero-advertising.com" always_nxdomain
 local-zone: "banners2.ero-advertising.com" always_nxdomain
 local-zone: "banners2.eroadvertising.com" always_nxdomain
-local-zone: "www.banners2.ero-advertising.com" always_nxdomain
 local-zone: "www.banners2.eroadvertising.com" always_nxdomain
-local-zone: "www.banners.eroadvertising.com" always_nxdomain
+local-zone: "www.banners2.ero-advertising.com" always_nxdomain
 local-zone: "www.banners.ero-advertising.com" always_nxdomain
+local-zone: "www.banners.eroadvertising.com" always_nxdomain
 local-zone: "www.imads.ero-advertising.com" always_nxdomain
 local-zone: "www.invideo.ero-advertising.com" always_nxdomain
 local-zone: "www.js.ero-advertising.com" always_nxdomain
@@ -2534,6 +2583,13 @@ local-zone: "www.eroswebcams.com" always_nxdomain
 local-zone: "www.erotica7.com" always_nxdomain
 local-zone: "eroticahunter.com" always_nxdomain
 local-zone: "eroticandbeauty.com" always_nxdomain
+local-zone: "eroticartimages.com" always_nxdomain
+local-zone: "cdn1.eroticartimages.com" always_nxdomain
+local-zone: "cdn2.eroticartimages.com" always_nxdomain
+local-zone: "cdn3.eroticartimages.com" always_nxdomain
+local-zone: "cdn4.eroticartimages.com" always_nxdomain
+local-zone: "cdn5.eroticartimages.com" always_nxdomain
+local-zone: "www.eroticartimages.com" always_nxdomain
 local-zone: "fhg.eroticbeauty.com" always_nxdomain
 local-zone: "erotic-blog.com" always_nxdomain
 local-zone: "www.erotic-blog.com" always_nxdomain
@@ -2541,6 +2597,8 @@ local-zone: "eroticgirlpics.com" always_nxdomain
 local-zone: "www.eroticgirlpics.com" always_nxdomain
 local-zone: "eroticgirlpictures.com" always_nxdomain
 local-zone: "erotichdworld.com" always_nxdomain
+local-zone: "eroticperfection.com" always_nxdomain
+local-zone: "www.eroticperfection.com" always_nxdomain
 local-zone: "eroticproviderguide.com" always_nxdomain
 local-zone: "eroticpussylab.com" always_nxdomain
 local-zone: "eroticscribes.com" always_nxdomain
@@ -2687,7 +2745,6 @@ local-zone: "www.fakehub.com" always_nxdomain
 local-zone: "www.fakethebitch.com" always_nxdomain
 local-zone: "falconstudios.com" always_nxdomain
 local-zone: "fallenangelproductions.com" always_nxdomain
-local-zone: "www.fallenangelproductions.com" always_nxdomain
 local-zone: "fallenangelvideo.com" always_nxdomain
 local-zone: "www.fallenangelvideo.com" always_nxdomain
 local-zone: "www.familystrokes.com" always_nxdomain
@@ -3169,6 +3226,7 @@ local-zone: "girlznation.com" always_nxdomain
 local-zone: "givemeyoung.com" always_nxdomain
 local-zone: "www.glamourmodelsdirectory.com" always_nxdomain
 local-zone: "glamourwebcams.com" always_nxdomain
+local-zone: "glxgroup.com" always_nxdomain
 local-zone: "www.glxgroup.com" always_nxdomain
 local-zone: "gndavery.com" always_nxdomain
 local-zone: "gndcali.com" always_nxdomain
@@ -3485,7 +3543,6 @@ local-zone: "www.hotfreesex4all.com" always_nxdomain
 local-zone: "www.hotfreewebcams.com" always_nxdomain
 local-zone: "www.hotgirlcentral.com" always_nxdomain
 local-zone: "hotgirlies4u.com" always_nxdomain
-local-zone: "www.hotgirlies4u.com" always_nxdomain
 local-zone: "hotgirlsboard.com" always_nxdomain
 local-zone: "www.hotgirlsboard.com" always_nxdomain
 local-zone: "hothomemade.com" always_nxdomain
@@ -3594,6 +3651,9 @@ local-zone: "v3.idealgasm.com" always_nxdomain
 local-zone: "v4.idealgasm.com" always_nxdomain
 local-zone: "www.idealgasm.com" always_nxdomain
 local-zone: "ideal-teens.com" always_nxdomain
+local-zone: "babes.ideal-teens.com" always_nxdomain
+local-zone: "cdn.ideal-teens.com" always_nxdomain
+local-zone: "www.ideal-teens.com" always_nxdomain
 local-zone: "ifl-porn.com" always_nxdomain
 local-zone: "ifuckxxx.com" always_nxdomain
 local-zone: "cdn1.ifuckxxx.com" always_nxdomain
@@ -3676,6 +3736,7 @@ local-zone: "www.ishootporn.com" always_nxdomain
 local-zone: "isitmymom.com" always_nxdomain
 local-zone: "www.isitmymom.com" always_nxdomain
 local-zone: "www.islivewebcams.com" always_nxdomain
+local-zone: "clicks.istripper.com" always_nxdomain
 local-zone: "www.istripper.com" always_nxdomain
 local-zone: "www.ithinkthatshot.com" always_nxdomain
 local-zone: "itinyteens.com" always_nxdomain
@@ -3886,6 +3947,8 @@ local-zone: "ladyboyweb.com" always_nxdomain
 local-zone: "www.ladyboyweb.com" always_nxdomain
 local-zone: "ladygranny.com" always_nxdomain
 local-zone: "www.ladylust.com" always_nxdomain
+local-zone: "ladytoons.com" always_nxdomain
+local-zone: "www.ladytoons.com" always_nxdomain
 local-zone: "www.laineygossip.com" always_nxdomain
 local-zone: "landofvenus.com" always_nxdomain
 local-zone: "join.landofvenus.com" always_nxdomain
@@ -5403,8 +5466,8 @@ local-zone: "premiumsexhd.com" always_nxdomain
 local-zone: "prettyindiaporn.com" always_nxdomain
 local-zone: "prettypetites.com" always_nxdomain
 local-zone: "www.prettypetites.com" always_nxdomain
-local-zone: "www.prettyvirgins.com" always_nxdomain
 local-zone: "www.pretty-virgins.com" always_nxdomain
+local-zone: "www.prettyvirgins.com" always_nxdomain
 local-zone: "www.primecups.com" always_nxdomain
 local-zone: "www.primecurves.com" always_nxdomain
 local-zone: "www.primehentai.com" always_nxdomain
@@ -5862,6 +5925,13 @@ local-zone: "www.sexstoriespost.com" always_nxdomain
 local-zone: "www.sextails.com" always_nxdomain
 local-zone: "www.sextapelesbians.com" always_nxdomain
 local-zone: "www.sexteenageporn.com" always_nxdomain
+local-zone: "sextgem.com" always_nxdomain
+local-zone: "cutelatinas.sextgem.com" always_nxdomain
+local-zone: "mhot.sextgem.com" always_nxdomain
+local-zone: "porn-mobile.sextgem.com" always_nxdomain
+local-zone: "xinh9xvn.sextgem.com" always_nxdomain
+local-zone: "sextoonscomics.com" always_nxdomain
+local-zone: "www.sextoonscomics.com" always_nxdomain
 local-zone: "banners.sextracker.com" always_nxdomain
 local-zone: "cbird.sextracker.com" always_nxdomain
 local-zone: "counter1.sextracker.com" always_nxdomain
@@ -6176,6 +6246,8 @@ local-zone: "www.playmatewebcams.streamray.com" always_nxdomain
 local-zone: "www.skypecam.streamray.com" always_nxdomain
 local-zone: "www.streamsex.com" always_nxdomain
 local-zone: "www.streetblowjobs.com" always_nxdomain
+local-zone: "streetmeatasia.com" always_nxdomain
+local-zone: "cdn.streetmeatasia.com" always_nxdomain
 local-zone: "www.stripchat.com" always_nxdomain
 local-zone: "cdn.stripst.com" always_nxdomain
 local-zone: "img.stripst.com" always_nxdomain
@@ -7278,7 +7350,13 @@ local-zone: "www.virginstories.com" always_nxdomain
 local-zone: "www.virginsvids.com" always_nxdomain
 local-zone: "www.virgintemple.com" always_nxdomain
 local-zone: "www.virginx.com" always_nxdomain
+local-zone: "banners.virtuagirlhd.com" always_nxdomain
+local-zone: "cards.virtuagirlhd.com" always_nxdomain
+local-zone: "cbanners.virtuagirlhd.com" always_nxdomain
+local-zone: "clicks.virtuagirlhd.com" always_nxdomain
+local-zone: "datas.virtuagirlhd.com" always_nxdomain
 local-zone: "www.virtuagirlhd.com" always_nxdomain
+local-zone: "www75.virtuagirlhd.com" always_nxdomain
 local-zone: "www.virtualporn360.com" always_nxdomain
 local-zone: "www.virtualporndesire.com" always_nxdomain
 local-zone: "virtualpornfan.com" always_nxdomain
@@ -8065,8 +8143,6 @@ local-zone: "www.amourangels.eu" always_nxdomain
 local-zone: "angelina-and-friends.eu" always_nxdomain
 local-zone: "www.angelina-and-friends.eu" always_nxdomain
 local-zone: "camjuice.eu" always_nxdomain
-local-zone: "cyprosoft.eu" always_nxdomain
-local-zone: "www.cyprosoft.eu" always_nxdomain
 local-zone: "www.dreambabes.eu" always_nxdomain
 local-zone: "fastpics.eu" always_nxdomain
 local-zone: "www.fastpics.eu" always_nxdomain
@@ -8205,6 +8281,7 @@ local-zone: "girlsoncam.info" always_nxdomain
 local-zone: "grannypics.info" always_nxdomain
 local-zone: "greatgirls.info" always_nxdomain
 local-zone: "www.greatgirls.info" always_nxdomain
+local-zone: "ifp-plus.info" always_nxdomain
 local-zone: "mca4climate.info" always_nxdomain
 local-zone: "www.merryangels.info" always_nxdomain
 local-zone: "mipr.info" always_nxdomain
@@ -8241,6 +8318,7 @@ local-zone: "www.wetchicks.info" always_nxdomain
 local-zone: "redtube.ink" always_nxdomain
 local-zone: "asianpornpics.io" always_nxdomain
 local-zone: "erotiv.io" always_nxdomain
+local-zone: "exl.io" always_nxdomain
 local-zone: "yspmedia.gitlab.io" always_nxdomain
 local-zone: "pornv.io" always_nxdomain
 local-zone: "pururin.io" always_nxdomain
@@ -8312,6 +8390,7 @@ local-zone: "asian-massage.me" always_nxdomain
 local-zone: "asianporno.me" always_nxdomain
 local-zone: "asianpussypic.me" always_nxdomain
 local-zone: "www.asianpussypic.me" always_nxdomain
+local-zone: "avli.me" always_nxdomain
 local-zone: "celebsdaddy.me" always_nxdomain
 local-zone: "cheggit.me" always_nxdomain
 local-zone: "www.cheggit.me" always_nxdomain
@@ -8486,6 +8565,7 @@ local-zone: "apornotube.net" always_nxdomain
 local-zone: "www.apornotube.net" always_nxdomain
 local-zone: "arabs3x.net" always_nxdomain
 local-zone: "asian3x.net" always_nxdomain
+local-zone: "asianscandal.net" always_nxdomain
 local-zone: "asiansfuck.net" always_nxdomain
 local-zone: "asianteengirls.net" always_nxdomain
 local-zone: "www.asianteengirls.net" always_nxdomain
@@ -8526,6 +8606,7 @@ local-zone: "bigbbwtube.net" always_nxdomain
 local-zone: "bigbootytube.net" always_nxdomain
 local-zone: "bigmatureass.net" always_nxdomain
 local-zone: "bigsexvideos.net" always_nxdomain
+local-zone: "www.bikiniriot.net" always_nxdomain
 local-zone: "bitcheese.net" always_nxdomain
 local-zone: "bondagepictures.net" always_nxdomain
 local-zone: "bondage-porno.net" always_nxdomain
@@ -8553,6 +8634,7 @@ local-zone: "angeliberty.centerblog.net" always_nxdomain
 local-zone: "www.angeliberty.centerblog.net" always_nxdomain
 local-zone: "ceporn.net" always_nxdomain
 local-zone: "changels.net" always_nxdomain
+local-zone: "www.changels.net" always_nxdomain
 local-zone: "charming-angels.net" always_nxdomain
 local-zone: "www.charming-angels.net" always_nxdomain
 local-zone: "chunkytgp.net" always_nxdomain
@@ -8574,8 +8656,14 @@ local-zone: "www.cosmid.net" always_nxdomain
 local-zone: "cougar-rencontre.net" always_nxdomain
 local-zone: "www.cougar-rencontre.net" always_nxdomain
 local-zone: "crackbabes.net" always_nxdomain
+local-zone: "crazyteens.net" always_nxdomain
+local-zone: "hs1.crazyteens.net" always_nxdomain
+local-zone: "www.crazyteens.net" always_nxdomain
 local-zone: "cumswap.net" always_nxdomain
 local-zone: "www.cumswap.net" always_nxdomain
+local-zone: "cute-babes.net" always_nxdomain
+local-zone: "cdn.cute-babes.net" always_nxdomain
+local-zone: "www.cute-babes.net" always_nxdomain
 local-zone: "cutenudeteens.net" always_nxdomain
 local-zone: "www.cute-virgins.net" always_nxdomain
 local-zone: "www.czechhd.net" always_nxdomain
@@ -8609,6 +8697,13 @@ local-zone: "advertising.entensity.net" always_nxdomain
 local-zone: "www.advertising.entensity.net" always_nxdomain
 local-zone: "www.entensity.net" always_nxdomain
 local-zone: "eroslist.net" always_nxdomain
+local-zone: "eroticapic.net" always_nxdomain
+local-zone: "cdn1.eroticapic.net" always_nxdomain
+local-zone: "cdn2.eroticapic.net" always_nxdomain
+local-zone: "cdn3.eroticapic.net" always_nxdomain
+local-zone: "cdn4.eroticapic.net" always_nxdomain
+local-zone: "cdn5.eroticapic.net" always_nxdomain
+local-zone: "www.eroticapic.net" always_nxdomain
 local-zone: "eroticareview.net" always_nxdomain
 local-zone: "www.eroticast.net" always_nxdomain
 local-zone: "eroticbeauties.net" always_nxdomain
@@ -8642,7 +8737,6 @@ local-zone: "angelinajolie.forumfree.net" always_nxdomain
 local-zone: "www.angelinajolie.forumfree.net" always_nxdomain
 local-zone: "angelsofblood.forumfree.net" always_nxdomain
 local-zone: "www.angelsofblood.forumfree.net" always_nxdomain
-local-zone: "angelsofuniverse.forumfree.net" always_nxdomain
 local-zone: "www.angelsofuniverse.forumfree.net" always_nxdomain
 local-zone: "www.free18.net" always_nxdomain
 local-zone: "free-girls.net" always_nxdomain
@@ -8984,6 +9078,8 @@ local-zone: "sexxxplanet.net" always_nxdomain
 local-zone: "www.sexyads.net" always_nxdomain
 local-zone: "sexydirtygirl.net" always_nxdomain
 local-zone: "www.sexydirtygirl.net" always_nxdomain
+local-zone: "sexympegs.net" always_nxdomain
+local-zone: "www.sexympegs.net" always_nxdomain
 local-zone: "sexy-photos.net" always_nxdomain
 local-zone: "sexyteenphotos.net" always_nxdomain
 local-zone: "sgirls.net" always_nxdomain
@@ -9057,8 +9153,8 @@ local-zone: "www.underhentai.net" always_nxdomain
 local-zone: "urbanamateurs.net" always_nxdomain
 local-zone: "www.urlgalleries.net" always_nxdomain
 local-zone: "gs1.wac.v5cdn.net" always_nxdomain
-local-zone: "www.veporn.net" always_nxdomain
 local-zone: "www.ve-porn.net" always_nxdomain
+local-zone: "www.veporn.net" always_nxdomain
 local-zone: "vintagefetish.net" always_nxdomain
 local-zone: "www.vintagefetish.net" always_nxdomain
 local-zone: "www.vintagepinupgirls.net" always_nxdomain
@@ -9759,6 +9855,9 @@ local-zone: "refinedlover.blogspot.ro" always_nxdomain
 local-zone: "rosemaryevanscam.blogspot.ro" always_nxdomain
 local-zone: "eroshow.ro" always_nxdomain
 local-zone: "www.topsiteuri.ro" always_nxdomain
+local-zone: "bigboobs.rocks" always_nxdomain
+local-zone: "cdn.bigboobs.rocks" always_nxdomain
+local-zone: "www.bigboobs.rocks" always_nxdomain
 local-zone: "nakedgirls.rocks" always_nxdomain
 local-zone: "nakedteens.rocks" always_nxdomain
 local-zone: "www.pornotube.rs" always_nxdomain
@@ -9798,6 +9897,9 @@ local-zone: "teenpornvideo.sex" always_nxdomain
 local-zone: "www.tube18.sex" always_nxdomain
 local-zone: "watchmygf.sex" always_nxdomain
 local-zone: "xxnx.sex" always_nxdomain
+local-zone: "allnude.sexy" always_nxdomain
+local-zone: "cdn.allnude.sexy" always_nxdomain
+local-zone: "www.allnude.sexy" always_nxdomain
 local-zone: "amateursex.sexy" always_nxdomain
 local-zone: "www.amateursex.sexy" always_nxdomain
 local-zone: "analwithteens.sexy" always_nxdomain
@@ -9808,6 +9910,9 @@ local-zone: "deep4.analwithteens.sexy" always_nxdomain
 local-zone: "deep5.analwithteens.sexy" always_nxdomain
 local-zone: "www.analwithteens.sexy" always_nxdomain
 local-zone: "www.asianporn.sexy" always_nxdomain
+local-zone: "bustyblondes.sexy" always_nxdomain
+local-zone: "cdn.bustyblondes.sexy" always_nxdomain
+local-zone: "www.bustyblondes.sexy" always_nxdomain
 local-zone: "ebonygirls.sexy" always_nxdomain
 local-zone: "girlspussy.sexy" always_nxdomain
 local-zone: "cdn.girlspussy.sexy" always_nxdomain
@@ -9933,6 +10038,8 @@ local-zone: "animalsexhere.top" always_nxdomain
 local-zone: "animalsex-top.top" always_nxdomain
 local-zone: "animals-sperm.top" always_nxdomain
 local-zone: "animalxnxx.top" always_nxdomain
+local-zone: "avair.top" always_nxdomain
+local-zone: "www.avair.top" always_nxdomain
 local-zone: "bestlist.top" always_nxdomain
 local-zone: "chineseporn.top" always_nxdomain
 local-zone: "www.chineseporn.top" always_nxdomain
@@ -9952,6 +10059,7 @@ local-zone: "youngteenporn.top" always_nxdomain
 local-zone: "zoohentai.top" always_nxdomain
 local-zone: "www.zoohentai.top" always_nxdomain
 local-zone: "asianporn.tube" always_nxdomain
+local-zone: "detentiongirls.tube" always_nxdomain
 local-zone: "www.e-hentai.tube" always_nxdomain
 local-zone: "milfporn.tube" always_nxdomain
 local-zone: "vintageporn.tube" always_nxdomain
@@ -10107,8 +10215,8 @@ local-zone: "www.angels4youleeds.co.uk" always_nxdomain
 local-zone: "angelsofthenight.co.uk" always_nxdomain
 local-zone: "www.angelsofthenight.co.uk" always_nxdomain
 local-zone: "annas-angels.co.uk" always_nxdomain
-local-zone: "www.annasangels.co.uk" always_nxdomain
 local-zone: "www.annas-angels.co.uk" always_nxdomain
+local-zone: "www.annasangels.co.uk" always_nxdomain
 local-zone: "bestpornsites.co.uk" always_nxdomain
 local-zone: "boobsandtits.co.uk" always_nxdomain
 local-zone: "www.girlsbcn.co.uk" always_nxdomain
@@ -10346,11 +10454,13 @@ local-zone: "ardientes.xyz" always_nxdomain
 local-zone: "beachboobs.xyz" always_nxdomain
 local-zone: "bellaporn.xyz" always_nxdomain
 local-zone: "buby.xyz" always_nxdomain
+local-zone: "camsplus.xyz" always_nxdomain
 local-zone: "chudai.xyz" always_nxdomain
 local-zone: "clip31.xyz" always_nxdomain
 local-zone: "eroticmovies.xyz" always_nxdomain
 local-zone: "e-x.xyz" always_nxdomain
 local-zone: "t.e-x.xyz" always_nxdomain
+local-zone: "filthcams.xyz" always_nxdomain
 local-zone: "freeanimalporn.xyz" always_nxdomain
 local-zone: "www.freeanimalporn.xyz" always_nxdomain
 local-zone: "freegrannyporn.xyz" always_nxdomain
