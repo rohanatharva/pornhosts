@@ -17,7 +17,7 @@
 set -e
 
 # Run script in verbose
-set -x
+# set -x
 
 printf "\n\tRunning GenerateHostFile.sh\n\n"
 
