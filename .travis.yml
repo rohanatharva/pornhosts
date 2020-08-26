@@ -10,7 +10,8 @@ cache:
   - "$HOME/db/"
 env:
   global:
-  - GIT_NAME: spirillen
+  #- GIT_NAME: spirillen
+  - GIT_NAME: Travis CI
   #- GIT_EMAIL: "travis@travis-ci.org"
   - GIT_EMAIL: 44526987+spirillen@users.noreply.github.com
   - TRAVIS_REPO_SLUG: "${TRAVIS_REPO_SLUG}"
