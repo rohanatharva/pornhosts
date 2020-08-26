@@ -47,7 +47,7 @@ install:
   - conda update -q conda
   - conda create -q -n test-environment python="${PYTHON_VERSION}"
   #- source activate test-environment
-  - conda init --all
+  - conda init bash
   - conda activate test-environment
   - python --version --version
   - pip --version
