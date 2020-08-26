@@ -35,8 +35,8 @@ addons:
     - dos2unix
     - msttcorefonts
     - lsof
-    - mariadb-client
-    - mariadb-common
+    #- mariadb-client
+    #- mariadb-common
 
 install:
   - sudo bash "${TRAVIS_BUILD_DIR}/dev-tools/setup_recursor.sh"
