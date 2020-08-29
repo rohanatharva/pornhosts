@@ -51,8 +51,8 @@ install:
   - python --version --version
   - pip --version
   - conda --version
-  #- pip -q install pyfunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
-  - pip -q install --no-cache-dir -U git+https://github.com/funilrys/PyFunceble@raw2sqlalchemy ultimate-hosts-blacklist-whitelist-dev dnspython[dnssec,idna]
+  - pip -q install --no-cache-dir -U pyfunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
+  #- pip -q install --no-cache-dir -U git+https://github.com/funilrys/PyFunceble@raw2sqlalchemy ultimate-hosts-blacklist-whitelist-dev dnspython[dnssec,idna]
   - pyfunceble --version
 
 git:
