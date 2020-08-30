@@ -67,7 +67,7 @@ matrix:
   fast_finish: true
 
 script:
-  - sudo systemctl restart mariadb.service
+  #- sudo systemctl restart mariadb.service
   #- sudo mariadb -u root -h localhost -e "CREATE DATABASE PyFunceble DEFAULT CHARACTER
   #  SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
   #- sudo mariadb -u root -h localhost -e "CREATE USER 'root'@'%' IDENTIFIED BY ''"
