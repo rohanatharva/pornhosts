@@ -5,7 +5,7 @@ language: generic #python
 #- '3.8'
 
 cache:
-  #pip: true
+  pip: true
   directories:
   - "$HOME/db/"
 env:
@@ -51,7 +51,8 @@ install:
   - python --version --version
   - pip --version
   - conda --version
-  - pip -q install --no-cache-dir -U PyFunceble-dev ultimate-hosts-blacklist-whitelist dnspython[dnssec,idna]
+  - pip -qy install --no-cache-dir -U PyFunceble-dev
+  - pip -qy install --no-cache-dir -U ultimate-hosts-blacklist-whitelist
   #- pip -q install --no-cache-dir -U git+https://github.com/funilrys/PyFunceble@dev ultimate-hosts-blacklist-whitelist-dev dnspython[dnssec,idna]
   - pyfunceble --version
 
