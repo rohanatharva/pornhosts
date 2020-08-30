@@ -79,4 +79,4 @@ script:
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash dev-tools/PrepareData.sh && bash dev-tools/DataTesting.sh
   #- sudo mkdir -p ${HOME}/db/ && sudo mariadb-dump --user=PyFunceble --password=PyFunceble --opt PyFunceble
   #   > ${HOME}/db/pyfunceble.sql; fi'
-  - - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
