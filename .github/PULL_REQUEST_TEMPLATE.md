@@ -1,5 +1,4 @@
-I believe this domain is an Adult(-related) domain --> that have to 
-be blocked as..
+I believe this domain is an Adult(-related) domain --> that have to be blocked as..
 
 ```python
 example.net
